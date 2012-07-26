@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+导航图标（从左至右）: 1将领 2背包 3阵型 4法宝 5元神 6强化 7灵珠 8交易 9家族 10空 11空 12寻仙 13知己 14打坐
+上面的菜单（从右至左）: 31登入奖励 35聚宝府邸 40神器 39竞技场 37运营活动 34在线奖励 36日常 38炼妖壶  41大礼包 
+右上的地图菜单（从左至右）: 23商城 21地图 XX音乐 25设置	
+
+菜单模块：
+1.右下导航图标
+2.上面的菜单
+3.右上的地图菜单
+4.聊天框
+5.任务追踪框
+6.提示ICON
+7.系统活动提示
+
+上面1-7 ，不填写表示主菜单不显示 填写表示一定显示。 
+visibleSubMenu    1:all 表示显示所有子菜单 。 1:1,2,3 表示只显示1中的1,2,3
+-->
+<menuConfig >
+    <item  panelId="" mapId="0" visibleMenuModule="1,2,3,4,5,6,7" visibleSubMenu="1:all;2:31,35,40,39,37,34,36,38,41;3:23,21,25" remark="默认"/>
+	<item  panelId="40" mapId="" visibleMenuModule="1,7" visibleSubMenu="1:1,2,3,4,5,6,7" remark="神器"/>
+	<item  panelId="138" mapId="" visibleMenuModule="4,7" visibleSubMenu="" remark="黄泉深渊"/>
+	<item  panelId="" mapId="201,202,203,204,205,221,301,302,303,304,305,401,402,403,404,405" visibleMenuModule="1,4,5,6,7" visibleSubMenu="1:1,2,3,4,5,6,7,8,9,12,13,14" remark="副本内部"/>
+	<item  panelId="" mapId="41,42,43" visibleMenuModule="1,4,6" visibleSubMenu="1:1,2,3,4,5,6,7,8,9,12,13" remark="蜀山论剑/蓬莱仙会/BOSS战"/>
+	<item  panelId="38,39" mapId="" visibleMenuModule="1,4,7" visibleSubMenu="1:1,2,3,4,5,6,7" remark="炼妖壶/竞技场"/>
+	<item  panelId="" mapId="30" visibleMenuModule="1,4,6,7" visibleSubMenu="1:1,2,3,4,5,6,7,8,9,12,13,14" remark="家族城"/>
+	<item  panelId="" mapId="31,32" visibleMenuModule="1,4,6" visibleSubMenu="1:1,2,3,4,5,6,7,8,9,12,13" remark="家族寻宝/家族进献"/>
+	<item  panelId="" mapId="44" visibleMenuModule="1,4,6,7" visibleSubMenu="1:1,2,3,4,5,6,7,8,9,12,13" remark="采集仙石"/>
+</menuConfig>

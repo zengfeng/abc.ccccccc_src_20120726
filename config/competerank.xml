@@ -1,0 +1,57 @@
+<competerank>
+	<rank>
+		<item id="50" name="name" x="0" y="10">
+		<![CDATA[<b><font size="24" color="#FFCC00">当前排名****** 可以获得*****修为 于####19:30领取</font></b>]]>
+		</item>
+	</rank>
+
+	<notify>
+		<item id="61" name="notify" x="0" y="10" tips="时间到后系统自动发放奖励_notify">
+     <![CDATA[<font size="17" color="#000000">******</font> <font size="17",color="#000000">霸气外露，获得了十连胜</font>]]>
+		</item>
+	</notify>
+
+	<tipinfo>
+		<item id="81" name="name" x="15" y="10">
+     <![CDATA[<font size="14"color="#FFFF33"><b>****** ######级</b></font>]]>
+		</item>
+
+		<item id="82" name="rank" x="15" y="50">
+     <![CDATA[<font size="12" color="#ffffff">排名 </font><font size="12" color="#FFFF33"> ******</font> ]]>
+		</item>
+
+		<item id="83" name="text" x="15" y="70">
+     <![CDATA[<font size="12" color="#ffffff">每期排名奖励：</font>]]>
+		</item>
+		<item id="84" name="jiangli" x="82" y="87">
+     <![CDATA[<font size="12" color="#FFFF33">####</font><font size="12" color="#ffffff">修为</font><font size="12" color="#FFFF33">****</font><font size="12" color="#ffffff">银币</font>]]>
+		</item>
+	</tipinfo>
+
+	<battledata>
+		<item id="90" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF">****** 你挑战</font> <font size="12" >###### ，</font><font size="12",color="#FFFFFF">你胜利了，排名升至++++++</font>  <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+		<item id="91" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF">****** 你挑战</font> <font size="12">###### ，</font><font size="12",color="#FFFFFF">你失败了</font>                      <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+		<item id="92" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF"> </font> <font size="12",color="#FFFFFF">******</font> <font size="12">###### </font> <font size="12" color="#FFFFFF">挑战你 ，你胜利了                        <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+		<item id="93" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF"> </font> <font size="12",color="#FFFFFF">******</font> <font size="12">###### </font> <font size="12" color="#FFFFFF">挑战你 ，你失败了，排名降至++++++</font>  <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+		<item id="94" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF">****** 你挑战</font> <font size="12" >###### ，</font><font size="12",color="#FFFFFF">你胜利了，排名不变</font>  <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+		<item id="95" name="name" x="15" y="18" tips="最近战斗记录">
+		<![CDATA[<font size="12" color="#FFFFFF"> </font> <font size="12",color="#FFFFFF">******</font> <font size="12">###### </font> <font size="12" color="#FFFFFF">挑战你 ，你失败了，排名不变</font>  <font size="12" color="#FF9900"> ##</font> ]]>
+		</item>
+
+	</battledata>
+</competerank>

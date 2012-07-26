@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<trendlist>
+	<!-- type: 0=人事，1=贡献    ,文档中  P1表示第一个参数是玩家ID, X1表示第一个参数是数字，I1是表示第一个参数是物品ID, 以此类推  -->
+	<trend id="1" type="0" text="P1加入家族"/>
+	<trend id="2" type="0" text="P1退出家族"/>
+	<trend id="3" type="0" text="P1将P2升职为副族长"/>
+	<trend id="4" type="0" text="P1经过投票，成为族长"/>
+	<trend id="5" type="0" text="P1将P2请出家族"/>
+	<trend id="6" type="1" text="P1获得了X2修为，为家族贡献了X3经验"/>
+	<trend id="7" type="0" text="P1将P2提升为族长，P1成为族员"/>
+	<trend id="8" type="0" text="P1将P2降为族员"/>
+	<trend id="9" type="0" text="家族升至X1级"/>
+	<trend id="10" type="0" text="因P1遗弃家族10天，所以P2自动提升为族长"/>
+</trendlist>

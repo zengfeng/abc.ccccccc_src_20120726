@@ -1,0 +1,84 @@
+﻿<root>
+	<!-- 
+		daily  对应日常的   每日活动 
+			   id 活动的编号    id小的排在上面
+			   name
+			   description
+			   actionType    1：点击传送至NPC面前
+			   		         2: vip传送,如没vip 慢慢爬过去
+			   		         3: 打开指定功能面板
+			   type          1:每日不限时
+							 2:每日限时
+							 3:限日期
+			   link    type =1,2 时  npcId    type=3 时  menuId(参照menu.xml)  
+			   ioc     活动图标名
+	-->
+	<daily>
+		<item id="1" name="悬赏令" description="剩余完成次数 xx1次" description2="通过悬赏令接取任务，可获得大量的经验"
+			bottonText="打开" type="3" link="137" ioc="mailICO" />
+		<item id="2" name="仙龟拜佛" description="拜佛次数 xx1次  打劫次数 xx2次" description2="通过运送香炉可获得银币和修为，在12:00-12:30和18:00-18:30期间运送奖励提高20%"
+			bottonText="前往|今日已经结束" type="2" link="2002" ioc="mailICO" />
+		<item id="3" name="钓鱼" description="剩余钓鱼次数 xx1次" description2="选鱼饵，钓大鱼，可获得大礼包"
+			bottonText="前往|今日已经结束" type="2" link="2001" ioc="mailICO" />
+		<item id="4" name="开天斧" description="xx1==0:未捐献|你本周捐献排名第xx1位" description2="每日捐献1次千年玄铁，可获得银币和修为"
+			bottonText="前往|今日已经结束" type="2" link="2004" ioc="mailICO" />
+		<item id="10" name="七彩仙洞" type="1" level="101311" description="免费开采xx1次" description2="每日进入仙洞开采可获得大量仙石"
+			bottonText="传送|今日已经结束|功能未开启" link="3007" ioc="mailICO" />		
+		<item id="5" name="竞技场" description="剩余竞技次数 xx1次" description2="每日通过竞技可获得修为和银币"
+			bottonText="打开|今日已经结束" type="3" link="39" ioc="mailICO" />
+		<item id="6" name="BOSS战" description="开启时间：12:30-13:00  19:00-19:30" description2="挑战boss可获得经验、银币和修为奖励"
+			bottonText="传送|今日已经结束|功能未开启" type="1" link="npcId" ioc="mailICO" />
+		<item id="7" name="蜀山论剑" description="开启时间：20:00-20:30" description2="参加可获得大量的修为、千年玄铁和银币奖励"
+			bottonText="传送|今日已经结束|功能未开启" type="1" link="npcId" ioc="mailICO" />
+		<!--item id="8" name="BOSS战2" description="开启时间：19:00-19:30" description2="挑战boss可获得经验、银币和修为奖励"
+			bottonText="传送|今日已经结束|功能未开启" type="1" link="npcId" ioc="mailICO" /-->
+		<item id="9" name="蓬莱仙会" description="开启时间：周二与周五20:45-21:15" description2="变身后找寻与之最佳派对的角色，获得大量经验和修为"
+			bottonText="传送|今日已经结束|功能未开启" type="1" link="2003" ioc="mailICO" />
+	
+	</daily>
+	<notice default_desc="_NAME_ 即将开始|_NAME_ 已开始" default_join="点击参加" default_tips="_NAME_" >
+		<item id="1" name="BOSS战" icon="/assets/ico/daily/action4.png" />
+		<item id="2" name="蓬莱仙会" icon="/assets/ico/daily/action5.png" />
+		<item id="3" name="家族寻宝" icon="/assets/ico/guildaction/2.png" />
+		<item id="4" name="家族进献" icon="/assets/ico/guildaction/3.png" />
+		<item id="5" name="守卫唐僧" icon="/assets/ico/daily/action2.png"/>
+		<item id="6" name="蜀山论剑" icon="/assets/ico/daily/action3.png"/>
+	</notice>
+	<copy>
+		<item id="2" name="深幽树洞"  level="" >
+			<![CDATA[<font color="#279F15">寒冰晶魄<br>麒麟苍角<br>子母法印</font><br><font color="#279F15">10级绿色装备</font><br><font color="#279F15">各类消耗品</font>]]>	
+		</item>
+		<item id="1" name="熔岩矿洞" level="" >
+			<![CDATA[<font color="#279F15">寒冰晶魄<br>麒麟苍角<br>子母法印</font><br><font color="#279F15">40级绿色装备</font><br><font color="#279F15">各类消耗品</font>]]>	
+		</item>
+	</copy>
+	<!--
+		0星期日  1 星期1
+	<-->
+	<action>
+		<item id="1" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="2" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="3" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="4" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="5" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="6" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+		<item id="0" name="装备强化"  ico="" >
+			<![CDATA[强化装备收费减半]]>	
+		</item>
+	</action>
+	<profExp>
+		<![CDATA[修为获得途径<br>★完成主线任务<br>★每提升10级自身等级<br>★参加日常活动<br>★参加家族活动<br>★开天斧贡献排行榜<br>★竞技场进行挑战<br>★获得神器及触发神器效果]]>	
+	</profExp>
+</root>

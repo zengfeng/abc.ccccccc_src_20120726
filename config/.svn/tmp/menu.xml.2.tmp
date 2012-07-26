@@ -1,0 +1,40 @@
+﻿<menu>
+<!--  
+	id  		面板编号
+	type 		类型   1  主面板按钮    2  右侧按钮   3  上面按钮  4 其它  5 活动ioc
+	tips        
+	level       出现等级  
+	coexist     可以并存的面板
+	sortId      从左到右的平铺顺序
+	stack       层级
+ -->
+	<item id="1" name="将领面板" coexist="2" sortId="1" stack="10" type="1" tips="将领面板" level="1" ioc="hero"  url="module/heroPanel/HeroPanel.swf" classString="game.module.heroPanel.HeroPanel" />
+	<item id="2" name="背包" coexist="1" type="1" stack="10" sortId="2" tips="背包" level="1" ioc="pack" url="module/pack/PackView.swf" classString="game.module.pack.PackView" />
+	<item id="3" name="阵型" type="1" tips="阵型" stack="10" sortId="2" level="1" ioc="formation" url="module/formation/FormationView.swf" classString="game.module.formation.FormationView" />
+	<item id="4" name="法宝" type="1" tips="法宝" stack="10" sortId="4" level="10010601" ioc="weapon"  url="module/sutra/SutraView.swf" classString="game.module.sutra.SutraView" />
+	<item id="5" name="元神" type="1" tips="元神" stack="10" sortId="5" level="10100204" ioc="soul"  url="module/soul/SoulView.swf" classString="game.module.soul.SoulView" />
+	<item id="6" name="强化" type="1" tips="强化" stack="10" sortId="6" level="1" ioc="enhance"  url="module/forge/ForgeView.swf" classString="game.module.forge.ForgeView" />
+	<item id="7" name="灵珠" type="1" tips="灵珠" stack="10" sortId="7" level="70" ioc="gem"  classString="game.module.gem.GemView" />
+	<item id="8" name="交易" type="1" tips="交易" stack="10" sortId="8" level="23" ioc="trade"  classString="game.module.trade.TradeView" />
+	<item id="9" name="竞技场" type="1" tips="竞技场" stack="10" sortId="9" level="20" ioc="arena"  url="module/compete/CompeteView.swf" classString="game.module.compete.CompeteView" />
+	
+	<item id="19" name="家族" type="1" tips="我的家族" stack="10" sortId="10" level="20" ioc="clan"  classString="game.module.clan.ClanList" />
+	
+	<item id="11" name="知己" type="1" tips="知己" stack="10" level="1"  ioc="friend" url="module/chat/chat.swf"  classString="game.module.friend.view.FriendView" />
+	<item id="12" name="寻仙" type="1" tips="寻仙" stack="10" sortId="4" level="10100802" ioc="heroic"  url="module/RecruitHeroView.swf" classString="game.module.recruitHero.RecruitHeroView" />
+	<item id="13" name="修炼" type="1" tips="修炼" stack="1" sortId="4" level="20" ioc="practice"  classString="game.module.practice.PracticeView" />
+	
+	<item id="20" name="潜力提升" type="4" tips="潜力提升" stack="10" sortId="4" level="25" ioc="potentialup"  classString="game.module.potential.PotentialUp" />
+	
+	<item id="21" name="地图" type="2" tips="地图" stack="10" level="1" x="20" y="45" w="31" h="31" ioc="map"  classString="game.module.setting.SettingView" />
+	<item id="22" name="邮箱" type="2" tips="邮箱" stack="10" level="1" x="55" y="45" w="31" h="31" ioc="email"  url="module/mail/MailView.swf" classString="game.module.mail.MailView" />
+	<item id="23" name="商城" type="2" tips="商城" stack="10" level="1" x="90" y="45" w="41" h="41" ioc="shopMenu" url="module/shop/ShopView.swf" classString="game.module.shop.ShopView" />
+	<item id="24" name="星宿台" type="2" tips="星宿台" stack="10" level="10010901" x="135" y="45" w="31" h="31" ioc="tavern"  classString="game.module.help.view.HelpView" />
+	<item id="25" name="设置" type="2" tips="设置" stack="10" level="1" x="170" y="45" w="31" h="31" ioc="setting"  url="module/sort/SortView.swf" classString="game.module.sort.view.SortView" />
+	
+	<item id="31" name="闭关修炼" type="4" tips="闭关修炼" stack="10" level="20" x="170" y="45" w="31" h="31" ioc="trainInfo"  url="module/practice/TrainInfoView.swf" classString="game.module.practice.TrainInfoView" />
+	<item id="32" name="潜力提升" type="4" tips="潜力提升" stack="10" level="20" x="170" y="45" w="31" h="31" ioc="trainInfo"  url="module/potential/PotentialUp.swf" classString="game.module.potential.PotentialUp" />
+	
+	<actionItem id="51" name="好友请求" type="5" tips="有好友请求信息"   ioc="trainInfo"  url="module/practice/TrainInfoView.swf" classString="game.module.practice.TrainInfoView" />
+	<actionItem id="52" name="活动奖励" type="5" tips="有活动奖励" ioc="trainInfo"  url="module/potential/PotentialUp.swf" classString="game.module.potential.PotentialUp" />
+</menu>

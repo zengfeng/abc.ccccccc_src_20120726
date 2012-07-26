@@ -1,0 +1,66 @@
+<map>
+  <scene id="20" name="活动城" width="8704" height="7168" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1397" standY="4901" x="1397" y="4901"/>
+<<<<<<< .mine
+	<gate kind="next" standX="180" standY="165" toScene="2" x="2800" y="2672"/>
+    <gate kind="next" standX="5388" standY="2960" toScene="1" x="5088" y="2960" />
+    <npc id="5001" x="1107" y="1265">
+      <point x="1007" y="1365"/>
+      <point x="1057" y="1365"/>
+      <point x="1107" y="1365"/>
+      <point x="1157" y="1365"/>
+      <point x="1207" y="1365"/>
+    </npc>
+    <npc id="2001" x="4959" y="5599">
+      <point x="4859" y="5699"/>
+      <point x="4906" y="5676"/>
+      <point x="4955" y="5676"/>
+      <point x="5013" y="5660"/>
+      <point x="5054" y="5644"/>
+    </npc>
+    <npc id="2002" x="5460" y="2772">
+      <point x="5360" y="2872"/>
+      <point x="5410" y="2872"/>
+      <point x="5460" y="2872"/>
+      <point x="5510" y="2872"/>
+      <point x="5560" y="2872"/>
+    </npc>
+    <npc id="2003" x="7173" y="5289">
+      <point x="7089" y="5261"/>
+      <point x="7086" y="5218"/>
+      <point x="7042" y="5235"/>
+      <point x="7045" y="5281"/>
+      <point x="7104" y="5192"/>
+    </npc>
+=======
+    <npc id="2002" x="5713" y="3102">
+      <point x="5625" y="3118"/>
+      <point x="5654" y="3164"/>
+      <point x="5681" y="3182"/>
+      <point x="5718" y="3184"/>
+      <point x="5754" y="3175"/>
+    </npc>
+    <npc id="2001" x="3720" y="5334">
+      <point x="3663" y="5399"/>
+      <point x="3703" y="5387"/>
+      <point x="3737" y="5378"/>
+      <point x="3772" y="5388"/>
+      <point x="3807" y="5391"/>
+    </npc>
+    <npc id="2004" x="7224" y="1041">
+      <point x="7123" y="1033"/>
+      <point x="7146" y="1058"/>
+      <point x="7177" y="1084"/>
+      <point x="7208" y="1097"/>
+      <point x="7241" y="1101"/>
+    </npc>
+    <npc id="2003" x="2733" y="4012">
+      <point x="2643" y="4045"/>
+      <point x="2686" y="4066"/>
+      <point x="2716" y="4070"/>
+      <point x="2755" y="4074"/>
+      <point x="2795" y="4061"/>
+    </npc>
+>>>>>>> .r6554
+  </scene>
+</map>

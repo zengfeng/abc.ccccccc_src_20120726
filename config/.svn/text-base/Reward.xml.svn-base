@@ -1,0 +1,25 @@
+<Reward>
+	<Donate name="开天斧奖励">
+		<item id="1" max="1">
+		<![CDATA[<font color="#FFFF00">第1名奖励：</font><font color="#CE5DD4">随机高级物品×1</font>、<font color="#FFFF00">1200</font>修为、<font color="#FFFF00">10000</font>银币]]>
+		</item>
+		<item id="2" max="2">
+		<![CDATA[<font color="#FFFF00">第2名奖励：</font><font color="#CE5DD4">随机高级物品×1</font>、<font color="#FFFF00">1000</font>修为、<font color="#FFFF00">8000</font>银币]]>
+		</item>
+		<item id="3" max="3">
+		<![CDATA[<font color="#FFFF00">第3名奖励：</font><font color="#CE5DD4">随机高级物品×1</font>、<font color="#FFFF00">800</font>修为、<font color="#FFFF00">6000</font>银币]]>
+		</item>
+		<item id="4" max="11">
+		<![CDATA[<font color="#FFFF00">4-10名奖励：</font><font color="#3882D4">随机中级物品×1</font>、<font color="#FFFF00">600</font>修为、<font color="#FFFF00">5000</font>银币]]>
+		</item>
+		<item id="11" max="101">
+		<![CDATA[<font color="#FFFF00">11-100名奖励：</font><font color="#3882D4">随机中级物品×1</font>、<font color="#FFFF00">400</font>修为、<font color="#FFFF00">4000</font>银币]]>
+		</item>
+		<item id="101" max="501">
+		<![CDATA[<font color="#FFFF00">101-500名奖励：</font><font color="#279F15">随机初级物品×1</font>、<font color="#FFFF00">300</font>修为、<font color="#FFFF00">3000</font>银币]]>
+		</item>
+		<item id="501" max="501">
+		<![CDATA[<font color="#FFFF00">501名之后奖励：</font><font color="#279F15">随机初级物品×1</font>、<font color="#FFFF00">200</font>修为、<font color="#FFFF00">2000</font>银币]]>
+		</item>
+	</Donate>
+</Reward>

@@ -1,0 +1,5 @@
+<map>
+  <scene id="42" name="蓬莱仙会" width="4096" height="3072" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1956" standY="1631" id="0" x="1956" y="1631"/>
+  </scene>
+</map>

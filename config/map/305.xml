@@ -1,0 +1,34 @@
+<map>
+  <scene id="305" name="太阳神层" width="3840" height="4096" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1816" standY="3162" id="0" x="1832" y="3021" skinId="0" rotation="0"/>
+    <gate kind="next" standX="723" standY="703" id="1" toScene="3" x="602" y="630" skinId="0" rotation="0"/>
+    <npc id="4241" x="2874" y="2132" moveRadius="300" attackRadius="70">
+      <point x="2684" y="2252"/>
+      <point x="2774" y="2310"/>
+      <point x="2863" y="2275"/>
+      <point x="3092" y="2114"/>
+      <point x="3048" y="2039"/>
+    </npc>
+    <npc id="4242" x="1859" y="1280" moveRadius="500" attackRadius="70">
+      <point x="1759" y="1380"/>
+      <point x="1809" y="1380"/>
+      <point x="1859" y="1380"/>
+      <point x="1909" y="1380"/>
+      <point x="1959" y="1380"/>
+    </npc>
+    <npc id="4243" x="857" y="631" attackRadius="130">
+      <point x="757" y="731"/>
+      <point x="807" y="731"/>
+      <point x="857" y="731"/>
+      <point x="907" y="731"/>
+      <point x="957" y="731"/>
+    </npc>
+    <npc id="4270" x="1193" y="822" attackRadius="100">
+      <point x="1206" y="856"/>
+      <point x="1204" y="856"/>
+      <point x="1200" y="858"/>
+      <point x="1204" y="859"/>
+      <point x="1205" y="857"/>
+    </npc>
+  </scene>
+</map>

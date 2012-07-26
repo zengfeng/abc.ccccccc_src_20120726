@@ -1,0 +1,305 @@
+<map>
+  <scene id="2" name="树之国" width="6400" height="3840" pieceW="256" pieceH="256" distant="" needMask="true">
+    <gate kind="next" standX="1448" standY="1063" id="4" toScene="204" x="1330" y="970" skinId="1" rotation="0"/>
+    <gate kind="in" standX="5135" standY="3064" id="0" x="5078" y="2920" skinId="0" rotation="0"/>
+    <gate kind="next" standX="996" standY="2876" id="3" toScene="203" x="884" y="2800" skinId="2" rotation="5"/>
+    <gate kind="next" standX="1375" standY="1760" id="5" toScene="205" x="1200" y="1629" skinId="2" rotation="5"/>
+    <gate kind="next" standX="2669" standY="3070" id="1" toScene="201" x="2680" y="3082" skinId="1" rotation="250"/>
+    <gate kind="next" standX="2431" standY="1726" id="2" toScene="202" x="2237" y="1604" skinId="1" rotation="0"/>
+    <gate kind="next" standX="4742" standY="1247" id="21" toScene="221" x="5100" y="1161" skinId="3" rotation="0"/>
+    <npc id="104" x="3046" y="681">
+      <point x="3070" y="747"/>
+      <point x="3146" y="717"/>
+      <point x="3091" y="744"/>
+      <point x="3135" y="729"/>
+      <point x="3113" y="732"/>
+    </npc>
+    <npc id="109" x="3622" y="820">
+      <point x="3538" y="871"/>
+      <point x="3555" y="881"/>
+      <point x="3572" y="888"/>
+      <point x="3588" y="896"/>
+      <point x="3606" y="899"/>
+    </npc>
+    <npc id="105" x="1495" y="1290">
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+    </npc>
+    <npc id="118" x="3521" y="2740">
+      <point x="3348" y="2801"/>
+      <point x="3375" y="2823"/>
+      <point x="3407" y="2842"/>
+      <point x="3441" y="2854"/>
+      <point x="3475" y="2860"/>
+    </npc>
+    <npc id="123" x="4727" y="1841">
+      <point x="4564" y="1961"/>
+      <point x="4564" y="1961"/>
+      <point x="4564" y="1961"/>
+      <point x="4564" y="1961"/>
+      <point x="4564" y="1961"/>
+    </npc>
+    <npc id="111" x="2525" y="2223">
+      <point x="2527" y="2299"/>
+      <point x="2579" y="2293"/>
+      <point x="2442" y="2260"/>
+      <point x="2463" y="2284"/>
+      <point x="2493" y="2295"/>
+    </npc>
+    <npc id="101" x="4127" y="1846">
+      <point x="4040" y="1824"/>
+      <point x="4039" y="1821"/>
+      <point x="4038" y="1823"/>
+      <point x="4038" y="1825"/>
+      <point x="4039" y="1824"/>
+    </npc>
+    <npc id="100" x="4641" y="2672">
+      <point x="4672" y="2761"/>
+      <point x="4683" y="2757"/>
+      <point x="4696" y="2751"/>
+      <point x="4708" y="2745"/>
+      <point x="4720" y="2740"/>
+    </npc>
+    <npc id="108" x="2195" y="2081">
+      <point x="2199" y="2126"/>
+      <point x="2274" y="2087"/>
+      <point x="2223" y="2127"/>
+      <point x="2243" y="2121"/>
+      <point x="2260" y="2105"/>
+    </npc>
+    <npc id="102" x="1284" y="2386">
+      <point x="1433" y="2381"/>
+      <point x="1348" y="2471"/>
+      <point x="1376" y="2455"/>
+      <point x="1406" y="2435"/>
+      <point x="1432" y="2409"/>
+    </npc>
+    <npc id="107" x="2069" y="1166">
+      <point x="1943" y="1189"/>
+      <point x="1955" y="1226"/>
+      <point x="1990" y="1246"/>
+      <point x="2028" y="1251"/>
+      <point x="2073" y="1252"/>
+    </npc>
+    <npc id="4154" x="2361" y="1727">
+      <point x="2354" y="1774"/>
+      <point x="2377" y="1780"/>
+      <point x="2406" y="1777"/>
+      <point x="2426" y="1766"/>
+      <point x="2441" y="1750"/>
+    </npc>
+    <npc id="115" x="3436" y="906">
+      <point x="3436" y="906"/>
+      <point x="3436" y="906"/>
+      <point x="3436" y="906"/>
+      <point x="3436" y="906"/>
+      <point x="3436" y="906"/>
+    </npc>
+    <npc id="116" x="1748" y="2781">
+      <point x="1748" y="2781"/>
+      <point x="1748" y="2781"/>
+      <point x="1748" y="2781"/>
+      <point x="1748" y="2781"/>
+      <point x="1748" y="2781"/>
+    </npc>
+    <npc id="117" x="3123" y="3028">
+      <point x="3051" y="3050"/>
+      <point x="3078" y="3043"/>
+      <point x="3107" y="3063"/>
+      <point x="3157" y="3052"/>
+      <point x="3133" y="3071"/>
+    </npc>
+    <npc id="113" x="1108" y="2919">
+      <point x="1190" y="2896"/>
+      <point x="1193" y="2882"/>
+      <point x="1192" y="2895"/>
+      <point x="1190" y="2881"/>
+      <point x="1196" y="2897"/>
+    </npc>
+    <npc id="137" x="1357" y="1711">
+      <point x="1389" y="1760"/>
+      <point x="1360" y="1761"/>
+      <point x="1410" y="1747"/>
+      <point x="1424" y="1731"/>
+      <point x="1437" y="1712"/>
+    </npc>
+    <npc id="156" x="3926" y="3240">
+      <point x="3939" y="3070"/>
+      <point x="3935" y="3076"/>
+      <point x="3935" y="3070"/>
+      <point x="3937" y="3067"/>
+      <point x="3936" y="3070"/>
+    </npc>
+    <npc id="4151" x="1236" y="1778">
+      <point x="1300" y="1754"/>
+      <point x="1252" y="1825"/>
+      <point x="1275" y="1818"/>
+      <point x="1291" y="1802"/>
+      <point x="1301" y="1784"/>
+    </npc>
+    <npc id="4155" x="4763" y="1210">
+      <point x="4774" y="1253"/>
+      <point x="4768" y="1258"/>
+      <point x="4759" y="1253"/>
+      <point x="4753" y="1257"/>
+      <point x="4760" y="1249"/>
+    </npc>
+    <npc id="153" x="4704" y="2758">
+      <point x="4704" y="2758"/>
+      <point x="4704" y="2758"/>
+      <point x="4704" y="2758"/>
+      <point x="4704" y="2758"/>
+      <point x="4704" y="2758"/>
+    </npc>
+    <npc id="150" x="4786" y="2956">
+      <point x="4786" y="2956"/>
+      <point x="4786" y="2956"/>
+      <point x="4786" y="2956"/>
+      <point x="4786" y="2956"/>
+      <point x="4786" y="2956"/>
+    </npc>
+    <npc id="157" x="4758" y="1238">
+      <point x="4758" y="1238"/>
+      <point x="4758" y="1238"/>
+      <point x="4758" y="1238"/>
+      <point x="4758" y="1238"/>
+      <point x="4758" y="1238"/>
+    </npc>
+    <npc id="158" x="4685" y="1286">
+      <point x="4656" y="1350"/>
+      <point x="4671" y="1353"/>
+      <point x="4670" y="1349"/>
+      <point x="4676" y="1342"/>
+      <point x="4686" y="1340"/>
+    </npc>
+    <npc id="151" x="3149" y="2960">
+      <point x="3230" y="2952"/>
+      <point x="3067" y="2947"/>
+      <point x="3086" y="2996"/>
+      <point x="3136" y="3005"/>
+      <point x="3190" y="3003"/>
+    </npc>
+    <npc id="152" x="3292" y="3032">
+      <point x="3292" y="3032"/>
+      <point x="3292" y="3032"/>
+      <point x="3292" y="3032"/>
+      <point x="3292" y="3032"/>
+      <point x="3292" y="3032"/>
+    </npc>
+    <npc id="159" x="2375" y="2075">
+      <point x="2375" y="2075"/>
+      <point x="2375" y="2075"/>
+      <point x="2375" y="2075"/>
+      <point x="2375" y="2075"/>
+      <point x="2375" y="2075"/>
+    </npc>
+    <npc id="162" x="1671" y="1756">
+      <point x="1619" y="1858"/>
+      <point x="1574" y="1800"/>
+      <point x="1587" y="1817"/>
+      <point x="1589" y="1790"/>
+      <point x="1592" y="1759"/>
+    </npc>
+    <npc id="164" x="1665" y="1750">
+      <point x="1586" y="1741"/>
+      <point x="1582" y="1764"/>
+      <point x="1579" y="1777"/>
+      <point x="1577" y="1818"/>
+      <point x="1587" y="1834"/>
+    </npc>
+    <npc id="154" x="2748" y="1658">
+      <point x="2653" y="1693"/>
+      <point x="2682" y="1712"/>
+      <point x="2705" y="1739"/>
+      <point x="2759" y="1743"/>
+      <point x="2733" y="1740"/>
+    </npc>
+    <npc id="160" x="3158" y="898">
+      <point x="3158" y="898"/>
+      <point x="3158" y="898"/>
+      <point x="3158" y="898"/>
+      <point x="3158" y="898"/>
+      <point x="3158" y="898"/>
+    </npc>
+    <npc id="166" x="4565" y="1974">
+      <point x="4565" y="1974"/>
+      <point x="4565" y="1974"/>
+      <point x="4565" y="1974"/>
+      <point x="4565" y="1974"/>
+      <point x="4565" y="1974"/>
+    </npc>
+    <npc id="167" x="1596" y="1118">
+      <point x="1588" y="1164"/>
+      <point x="1579" y="1161"/>
+      <point x="1586" y="1165"/>
+      <point x="1591" y="1157"/>
+      <point x="1599" y="1157"/>
+    </npc>
+    <npc id="161" x="1894" y="1091">
+      <point x="1796" y="1086"/>
+      <point x="1820" y="1109"/>
+      <point x="1849" y="1134"/>
+      <point x="1888" y="1145"/>
+      <point x="1816" y="1135"/>
+    </npc>
+    <npc id="168" x="1640" y="1247">
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+      <point x="1640" y="1247"/>
+    </npc>
+    <npc id="4152" x="1469" y="1750">
+      <point x="1369" y="1850"/>
+      <point x="1419" y="1850"/>
+      <point x="1469" y="1850"/>
+      <point x="1519" y="1850"/>
+      <point x="1569" y="1850"/>
+    </npc>
+    <npc id="131" x="4729" y="2647">
+      <point x="4712" y="2753"/>
+      <point x="4726" y="2741"/>
+      <point x="4726" y="2740"/>
+      <point x="4730" y="2746"/>
+      <point x="4735" y="2734"/>
+    </npc>
+    <npc id="112" x="4542" y="2689">
+      <point x="4630" y="2724"/>
+      <point x="4625" y="2725"/>
+      <point x="4629" y="2723"/>
+      <point x="4633" y="2725"/>
+      <point x="4628" y="2722"/>
+    </npc>
+    <npc id="181" x="3356" y="797">
+      <point x="3318" y="860"/>
+      <point x="3328" y="859"/>
+      <point x="3341" y="862"/>
+      <point x="3357" y="861"/>
+      <point x="3369" y="860"/>
+    </npc>
+    <npc id="182" x="3213" y="721">
+      <point x="3156" y="789"/>
+      <point x="3209" y="774"/>
+      <point x="3170" y="781"/>
+      <point x="3207" y="782"/>
+      <point x="3188" y="778"/>
+    </npc>
+    <npc id="173" x="3621" y="2842">
+      <point x="3641" y="2945"/>
+      <point x="3679" y="2933"/>
+      <point x="3707" y="2914"/>
+      <point x="3726" y="2882"/>
+      <point x="3733" y="2845"/>
+    </npc>
+    <npc id="185" x="1255" y="2870">
+      <point x="1255" y="2870"/>
+      <point x="1255" y="2870"/>
+      <point x="1255" y="2870"/>
+      <point x="1255" y="2870"/>
+      <point x="1255" y="2870"/>
+    </npc>
+  </scene>
+</map>

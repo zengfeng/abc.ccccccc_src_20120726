@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<setting>
+	<item id="2" name="副本免费进入的次数已用完，是否花费xx1元宝/绑元宝进入副本？" defaultValue="0" />
+	<item id="3" name="花费xx1元宝/绑元宝，立即完成剩余挂机次数？" defaultValue="0" />
+  <item id="11" name="副本中还有未击杀的怪物，确认退出副本？" defaultValue="0" />
+	<item id="12" name="花费元宝开放经验台" defaultValue="0" />
+	<item id="14" name="是否前往蜀山城进行挂机修炼？" defaultValue="0" />
+	<item id="15" name="是否使用1个xx1获得xx2经验？" defaultValue="0" />
+	<item id="19" name="是否花费xx1元宝/绑元宝，购买xx2次进入副本？" defaultValue="0" />
+	<item id="22" name="花费xx1元宝/绑元宝，立即拉杆？" defaultValue="0" />
+	<item id="43" name="花费xx1元宝/绑元宝，立即复活？" defaultValue="0" />
+	<item id="52" name="花费xx1元宝购买？" defaultValue="0" />
+	<item id="54" name="取消出售xx1×xx2物品？" defaultValue="0" />
+	<item id="56" name="确认寄售此物品？" defaultValue="0" />
+	<item id="58" name="是否消耗yy1银币合成出[20:yy2]×yy3、[20:yy4]×yy5和[20:yy6]×yy7" defaultValue="0" />
+	<item id="73" name="是否花费xx1元宝/绑元宝购买？" defaultValue="0" />
+	<item id="77" name="花费xx1元宝/绑元宝，扩展50格包裹容量？" defaultValue="0" />
+	<item id="79" name="强化" defaultValue="0" />
+	<item id="82" name="自动强化" defaultValue="0" />
+	<item id="83" name="自动强化" defaultValue="0" />
+	<item id="85" name="是否花费xx1元宝鉴定xx2个原石" defaultValue="0" />
+	<item id="88" name="花费xx1元宝加速至下个神像，是否继续？" defaultValue="0" />
+	<item id="91" name="花费xx1元宝立即完成护送，是否继续？" defaultValue="0" />
+	<item id="104" name="你确定要花费xx1修为兑换xx2个xx3吗？" defaultValue="0" />
+	<item id="118" name="是否花费xx1元宝召唤xx2" defaultValue="0" />
+	<item id="124" name="是否花费10元宝清除竞技等待时间" defaultValue="0" />
+	<item id="126" name="你确定要花费10元宝立即复活吗" defaultValue="0" />
+	<item id="136" name="自动合成此处符合合成条件的灵珠至下级（不含已镶嵌的灵珠）" defaultValue="0" />
+	<item id="183" name="是否花费xx1元宝和xx2个xx3合成出xx4个xx5" defaultValue="0" />
+	<item id="192" name="是否花费xx1元宝直接服用xx2" defaultValue="0" />
+	<item id="205" name="是否确认合成至xx1级？" defaultValue="0" />
+	<item id="226" name="啊啊" defaultValue="0" />
+	<item id="231" name="卸下元神" defaultValue="0" />
+	<item id="250" name="批量出售" defaultValue="0" />
+	<item id="286" name="是否花费50元宝刷新所有物品" defaultValue="0" />
+	<item id="287" name="是否花费xx1元宝购买xx2×xx3" defaultValue="0" />
+	<item id="288" name="是否花费xx1元宝购买xx2" defaultValue="0" />
+	<item id="300" name="是否花费xx1元宝进入xx2次锁妖塔？" defaultValue="0" />
+	<item id="311" name="是否花费" defaultValue="0" />
+	<item id="312" name="仙缘" defaultValue="0" />
+	<item id="339" name="啊啊" defaultValue="0" />
+	<item id="360" name="是否花费200元宝铸魂？" defaultValue="0" />
+	<item id="402" name="是否花费元宝进行挖矿" defaultValue="0" />
+</setting>

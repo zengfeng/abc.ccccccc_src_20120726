@@ -1,0 +1,70 @@
+<map>
+  <scene id="1" name="云之国" width="3840" height="2560" pieceW="3840" pieceH="2560" distant="">
+    <gate kind="in" standX="1034" standY="579" x="828" y="475"/>
+    <gate kind="main" standX="7040" standY="1296" toScene="20" x="7040" y="1296" />
+    <gate kind="clanMain" standX="1140" standY="600" toScene="30" x="1250" y="400" />
+    <npc id="4" x="854" y="286">
+      <point x="777" y="406"/>
+      <point x="833" y="448"/>
+      <point x="908" y="432"/>
+      <point x="958" y="385"/>
+      <point x="959" y="342"/>
+    </npc>
+    <npc id="1" x="2714" y="771">
+      <point x="2613" y="748"/>
+      <point x="2633" y="805"/>
+      <point x="2672" y="847"/>
+      <point x="2722" y="857"/>
+      <point x="2779" y="850"/>
+    </npc>
+    <npc id="4001" x="3165" y="1628">
+      <point x="3017" y="1733"/>
+      <point x="3015" y="1801"/>
+      <point x="3097" y="1863"/>
+      <point x="3230" y="1862"/>
+      <point x="3324" y="1812"/>
+    </npc>
+    <npc id="4002" x="2377" y="1929">
+      <point x="2280" y="1940"/>
+      <point x="2314" y="1953"/>
+      <point x="2350" y="1970"/>
+      <point x="2383" y="1967"/>
+      <point x="2420" y="1969"/>
+    </npc>
+    <npc id="4004" x="1442" y="2047">
+      <point x="1385" y="2151"/>
+      <point x="1414" y="2147"/>
+      <point x="1455" y="2149"/>
+      <point x="1489" y="2145"/>
+      <point x="1524" y="2136"/>
+    </npc>
+    <npc id="3" x="756" y="1843">
+      <point x="840" y="1962"/>
+      <point x="781" y="1975"/>
+      <point x="805" y="1969"/>
+      <point x="855" y="1947"/>
+      <point x="871" y="1928"/>
+    </npc>
+    <npc id="5" x="954" y="2074">
+      <point x="877" y="2133"/>
+      <point x="930" y="2152"/>
+      <point x="969" y="2157"/>
+      <point x="1018" y="2160"/>
+      <point x="1071" y="2142"/>
+    </npc>
+    <npc id="2" x="2062" y="1428">
+      <point x="2022" y="1530"/>
+      <point x="2056" y="1530"/>
+      <point x="2083" y="1521"/>
+      <point x="2104" y="1517"/>
+      <point x="2145" y="1513"/>
+    </npc>
+    <npc id="4003" x="1644" y="1390">
+      <point x="1574" y="1465"/>
+      <point x="1586" y="1490"/>
+      <point x="1645" y="1503"/>
+      <point x="1616" y="1499"/>
+      <point x="1676" y="1494"/>
+    </npc>
+  </scene>
+</map>

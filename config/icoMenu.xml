@@ -1,0 +1,173 @@
+﻿<!-- 
+	type 
+		2;单次显示通知类(bottom，的上方)
+		3;累计显示通知类
+		4;单次提示ICON类(bottom)
+		5;累计提示ICON类
+		6;特殊类
+	
+	openType
+		1:弹邮件面板
+		2:弹出知己申请面板
+		3:战斗类提示
+		4:弹询问框   有是否
+		5:文字类		无是否
+		6:弹出活动奖励面板
+		7:弹出礼包奖励面板
+	  8:弹出仙龟拜佛
+	  	9:交易，寄售面板
+	  	10:交易，交易面板
+	  	11:家族邀请，点确认后发消息
+ 	 
+      mailICO   邮件
+	    battleICO  战斗
+	    questionICO  问号
+	    friendICO    好友
+	    giftICO        礼包
+-->
+<menu2>
+	<item id="0" name="奖励" description="奖励" type="5" openType="6" ioc="giftICO" >
+		<![CDATA[活动奖励提示]]>
+	</item>
+	<item id="502" name="排名奖励" description="奖励" dailyId="6" >
+		<![CDATA[恭喜你在本次<font color="#FFFF00">BOSS战</font>中排名第<font color="#FFFF00">yy1</font>，累计获得<font color="#279F15">yy2</font>经验，获得了]]>	
+	</item>
+	<item id="503" name="第一位挑战者" description="奖励" dailyId="6" >
+		<![CDATA[你是本次BOSS战中<font color="#FFFF00">第一位挑战BOSS</font>的英雄，使它受到致命一击，你获得了]]>	
+	</item>
+	<item id="504" name="蜀山论剑胜利" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你在本次<font color="#FFFF00">蜀山论剑</font>中成为胜利方，获得]]>	
+	</item>
+	<item id="505" name="蜀山论剑奖励" description="奖励" dailyId="7" >
+		<![CDATA[你在本次蜀山论剑中，共获得]]>	
+	</item>
+	
+	<item id="1" name="好友申请" description="好友申请" type="5" openType="2" ioc="friendICO" >
+		<![CDATA[知己申请]]>	
+	</item>
+	
+	<item id="201" name="市场" description="出售成功" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[你寄售中的[20:yy1]成功出售，获得<font color="#FF3300">yy2</font>元宝<br>（系统已帮你自动收取，无需手动收取）]]>	
+	</item>
+	<item id="202" name="家族" description="你被请出了家族" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[你被xx1的族长[yy1:xx2]请出了家族]]>	
+	</item>
+	<item id="203" name="家族" description="家族投票中止" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[因族长/副族长已上线，投票中止]]>	
+	</item>
+	<item id="204" name="家族" description="家族投票结果" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[经过24小时的投票，[yy1:xx1]以<font color="#FF3300">yy2</font>票成为新任族长]]>	
+	</item>
+	<item id="205" name="蓬莱仙会" description="蓬莱仙会的奖励" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[本次<font color="#FF3300">蓬莱仙会</font>已结束，你获得了<font color="#FF3300">200</font>修为和<font color="#279F15">yy1</font>经验]]>	
+	</item>
+	<item id="206" name="家族敬献" description="家族敬献的奖励" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[你在本次家族敬献中累计获得了]]>	
+	</item>
+	<item id="208" name="神器挑战成功" description="挑战成功" type="4" openType="5" ioc="mailICO" dailyId="11"   >
+		<![CDATA[你成功挑战[24:yy1]，获得了]]>	
+	</item>
+	
+	<item id="209" name="家族" description="你已成功加入了家族" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[你成功加入了xx1]]>	
+	</item>
+	
+	<item id="210" name="家族寻宝" description="胜利奖励" type="4" openType="6" ioc="mailICO"  >
+		<![CDATA[恭喜你在本次<font color="#FFFF00">家族寻宝</font>中成功击败雷云邪神，获得了]]>	
+	</item>
+	
+	<item id="211" name="家族寻宝" description="失败奖励" type="4" openType="6" ioc="mailICO"  >
+		<![CDATA[你在本次<font color="#FFFF00">家族寻宝</font>中获得了]]>	
+	</item>
+	
+	<item id="212" name="开天斧" description="每日贡献奖励" type="4" openType="5" ioc="mailICO"  >
+		<![CDATA[每日贡献<font color="#FF3300">开天斧</font>获得<font color="#FF3300">2000</font>银币，<font color="#FF3300">100</font>修为]]>	
+	</item>
+	
+	<item id="301" name="交易" description="过期第9天" type="4" openType="10" ioc="mailICO">
+		<![CDATA[你有未收取的交易物品在交易单中，系统只保留<font color="#FF3300">10</font>天<br>现在已是第<font color="#FF3300">9</font>天，逾期将自动删除，是否现在查看？]]>	
+	</item>
+	<item id="302" name="市场" description="寄售物品过期第1天" type="4" openType="9" ioc="mailICO">
+		<![CDATA[你有未收取的寄售物品在市场中，系统只保留<font color="#FF3300">10</font>天<br>现在已是第<font color="#FF3300">1</font>天，逾期将自动删除，是否现在查看？]]>	
+	</item>
+	<item id="303" name="市场" description="寄售物品过期第9天" type="4" openType="9" ioc="mailICO">
+		<![CDATA[你有未收取的寄售物品在市场中，系统只保留<font color="#FF3300">10</font>天<br>现在已是第<font color="#FF3300">9</font>天，逾期将自动删除，是否现在查看？]]>	
+	</item>
+	<item id="304" name="家族邀请" description="家族邀请" type="4" openType="11" ioc="mailICO">
+		<![CDATA[[yy1:xx1]邀请你加入xx2家族，是否同意？]]>	
+	</item>
+	<item id="305" name="家族投票" description="家族投票" type="4" openType="4" ioc="mailICO">
+		<![CDATA[族长与副族长连续5天内未上线，家族自动进入<font color="#FF3300">族长投票</font>阶段，是否现在参与投票？]]>	
+	</item>
+	 
+	<item id="2" name="仙龟拜佛" description="战斗" type="5" openType="8" ioc="battleICO" >
+		<![CDATA[仙龟拜佛]]>
+	</item>
+	<item id="401" name="仙龟拜佛"  description="拜佛结束"  type="6" openType="5" ioc="mailICO" >
+		<![CDATA[护送仙龟完成，获得了yy1修为，yy2银币]]>	
+	</item>
+	<item id="402" name="仙龟拜佛" ioc="battleICO" type="5" description="打劫成功">
+		<![CDATA[[yy1:xx1]成功打劫了你！]]>	
+	</item>
+	<item id="403" name="仙龟拜佛" ioc="battleICO" type="5" description="打劫失败">
+		<![CDATA[[yy1:xx1]打劫你失败了。]]>
+	</item>
+
+	<item id="404" name="竞技场被打败" ioc="battleICO" description="竞技场">
+		<![CDATA[[yy1:xx1]在竞技场中成功击败了你。]]>
+	</item>
+
+<!--
+ 	<item id="501" name="合成系统开启" ioc="mailICO" openType="5" description="合成功能已开启">
+		<![CDATA[合成功能已开启，可从包裹中右下方找到合成按钮<br>也可找铁匠进行物品合成]]>	
+	</item>
+	-->
+	<item id="101" name="礼包奖励" description="礼包奖励" type="5" openType="7" ioc="gift" >
+		<![CDATA[活动奖励提示]]>
+	</item>
+	<item id="102" name="补偿礼包" description="系统补偿" dailyId="6" >
+		<![CDATA[因xx20，获得了]]>	
+	</item>
+	<item id="103" name="竞技场排名礼包" description="奖励" dailyId="6" >
+		<![CDATA[恭喜你在本次竞技场中排名第<font color="#FFFF00">yy1</font>，获得了]]>	
+	</item>
+	<item id="104" name="开天斧排名礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你在本周开天斧贡献排名第<font color="#FFFF00">yy1</font>，获得了]]>	
+	</item>
+	<item id="105" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP1</font>，获得了<font color="#FFFF00">VIP1</font>的专享礼包]]>	
+	</item>
+	<item id="106" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP2</font>，获得了<font color="#FFFF00">VIP2</font>的专享礼包]]>	
+	</item>
+	<item id="107" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP3</font>，获得了<font color="#FFFF00">VIP3</font>的专享礼包]]>	
+	</item>
+	<item id="108" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP4</font>，获得了<font color="#FFFF00">VIP4</font>的专享礼包]]>	
+	</item>
+	<item id="109" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP5</font>，获得了<font color="#FFFF00">VIP5</font>的专享礼包]]>	
+	</item>
+	<item id="110" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP6</font>，获得了<font color="#FFFF00">VIP6</font>的专享礼包]]>	
+	</item>
+	<item id="111" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP7</font>，获得了<font color="#FFFF00">VIP7</font>的专享礼包]]>	
+	</item>
+	<item id="112" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP8</font>，获得了<font color="#FFFF00">VIP8</font>的专享礼包]]>	
+	</item>
+	<item id="113" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP9</font>，获得了<font color="#FFFF00">VIP9</font>的专享礼包]]>	
+	</item>
+	<item id="114" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP10</font>，获得了<font color="#FFFF00">VIP10</font>的专享礼包]]>	
+	</item>
+	<item id="115" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP11</font>，获得了<font color="#FFFF00">VIP11</font>的专享礼包]]>	
+	</item>
+	<item id="116" name="VIP礼包" description="奖励" dailyId="7" >
+		<![CDATA[恭喜你成为<font color="#FFFF00">VIP12</font>，获得了<font color="#FFFF00">VIP12</font>的专享礼包]]>	
+	</item>
+</menu2>

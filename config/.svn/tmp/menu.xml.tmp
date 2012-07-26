@@ -1,0 +1,26 @@
+<menu>
+<!--  
+	id  		面板编号
+	type 		类型   1  主面板按钮    2  右侧按钮   3  上面按钮  
+	tips        
+	level       出现等级  
+ -->
+	<item id="1" name="将领面板" coexist="3" type="1" tips="将领面板" level="1" ioc="hero" classString="game.module.heroPanel.HeroPanel" />
+	<item id="2" name="法宝" type="1" tips="法宝" level="1" ioc="weapon"  classString="game.module.weapon.WeaponView" />
+	<item id="3" name="背包" coexist="1" type="1" tips="背包" level="1" ioc="pack"  classString="game.module.pack.PackView" />
+	<item id="4" name="任务" type="1" tips="任务" level="1" ioc="quest"  classString="game.module.pack.PackView" />
+	<item id="5" name="交易" type="1" tips="交易" level="1" ioc="trade"  classString="game.module.pack.PackView" />
+	<item id="6" name="家族" type="1" tips="家族" level="1" ioc="clan"  classString="game.module.pack.PackView" />
+	<item id="7" name="探险" type="1" tips="探险" level="1" ioc="explore"  classString="game.module.pack.PackView" />
+	<item id="8" name="日常" type="1" tips="日常" level="1" ioc="daily"  classString="game.module.pack.PackView" />
+	<item id="9" name="英雄志" type="1" tips="英雄志" level="1" ioc="heroic"  classString="game.module.formation.FormationView" />
+	<item id="10" name="商城" type="1" tips="商城" level="1" ioc="shop"  classString="game.module.shop.ShopView" />
+	
+	<item id="2301" name="聊天面板" type="2" tips="" level="1" ioc="sort"  classString="game.module.chatwhisper.view.WhisperModuleView" />
+	<item id="2302" name="知己申请" type="2" tips="" level="1" ioc="sort"  classString="game.module.chatwhisper.view.WhisperModuleView" />
+	<item id="21" name="设置" type="2" tips="设置" level="1" ioc="setting"  classString="game.module.setting.SettingView" />
+	<item id="22" name="邮箱" type="2" tips="邮箱" level="1" ioc="email"  classString="game.module.mail.MailView" />
+	<item id="23" name="知己" type="2" tips="知己" level="1" ioc="friend"  classString="game.module.friend.view.FriendView" />
+	<item id="24" name="帮助" type="2" tips="帮助" level="1" ioc="help"  classString="game.module.help.view.HelpView" />
+	<item id="25" name="排行" type="2" tips="排行" level="1" ioc="sort"  classString="game.module.sort.view.SortView" />
+</menu>

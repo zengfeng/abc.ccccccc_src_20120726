@@ -1,0 +1,236 @@
+<<<<<<< HEAD
+package game.module.item
+{
+	import game.module.item.equipment.Equipment;
+	import game.module.item.gem.Gem;
+	import game.module.item.pile.PileItem;
+	import game.module.item.soul.Soul;
+	import game.module.item.sutra.Sutra;
+
+	import com.sociodox.utils.Base64;
+
+	import flash.utils.ByteArray;
+
+	/**
+	 * @author jian
+	 */
+	public class ItemChatInterface
+	{
+		public static function encodeItemToString(item : Item) : String
+		{
+			var vo : Object = getChatVOFromItem(item);
+			var ba : ByteArray = new ByteArray();
+			ba.writeObject(vo);
+
+			try
+			{
+				var str : String = Base64.encode(ba);
+			}
+			catch (e : Error)
+			{
+				trace("物品序列化编码错误");
+				return "";
+			}
+			return str;
+		}
+
+		public static function decodeStringToItem(str : String) : Item
+		{
+			try
+			{
+				var ba : ByteArray = Base64.decode(str);
+				ba.position = 0;
+				var vo : Object = ba.readObject();
+			}
+			catch (e : Error)
+			{
+				trace("物品序列化解码错误");
+				return null;
+			}
+
+			var item : Item = getItemFromChatVO(vo);
+
+			return item;
+		}
+
+		private static function getChatVOFromItem(item : Item) : Object
+		{
+			var vo : Object = new Object();
+
+			vo["id"] = item.id;
+			vo["binding"] = item.binding;
+
+			// if (item is IUnique)
+			// vo["uuid"] = (item as IUnique).uuid;
+
+			if (item is Equipment)
+				vo["enhanceLevel"] = (item as Equipment).enhanceLevel;
+
+			if (item is Soul)
+				vo["exp"] = (item as Soul).exp;
+
+			if (item is PileItem)
+				vo["nums"] = item.nums;
+
+			if (item is Sutra)
+			{
+				var gems : Vector.<uint> = new Vector.<uint>();
+				for each (var gem:Gem in (item as Sutra).gems)
+				{
+					gems.push(gem.id);
+				}
+				vo["gems"] = gems;
+			}
+
+			return vo;
+		}
+
+		private static function getItemFromChatVO(vo : Object) : Item
+		{
+			if (vo["id"] == undefined)
+				return null;
+
+			var item : Item = ItemManager.instance.newItem(vo["id"], vo["binding"]);
+
+			if (item is Equipment)
+				(item as Equipment).enhanceLevel = vo["enhanceLevel"];
+
+			if (item is Soul)
+				(item as Soul).exp = vo["exp"];
+
+			if (item is Sutra && vo["gems"])
+			{
+				var gems : Array = [];
+				for each (var gemId:uint in vo["gems"])
+				{
+					var gem : Gem = ItemManager.instance.newItem(gemId);
+
+					if (gem)
+						gems.push(gem);
+				}
+				(item as Sutra).gems = gems;
+			}
+			
+			return item;
+		}
+	}
+}
+=======
+package game.module.item
+{
+	import game.net.core.Common;
+	import game.module.item.equipment.Equipment;
+	import game.module.item.gem.Gem;
+	import game.module.item.pile.PileItem;
+	import game.module.item.soul.Soul;
+	import game.module.item.sutra.Sutra;
+
+	import com.sociodox.utils.Base64;
+
+	import flash.utils.ByteArray;
+
+	/**
+	 * @author jian
+	 */
+	public class ItemChatInterface
+	{
+		public static function encodeItemToString(item : Item) : String
+		{
+			var vo : Object = getChatVOFromItem(item);
+			var ba : ByteArray = new ByteArray();
+			ba.writeObject(vo);
+
+			try
+			{
+				var str : String = Base64.encode(ba);
+			}
+			catch (e : Error)
+			{
+				trace("物品序列化编码错误");
+				return "";
+			}
+			return str;
+		}
+
+		public static function decodeStringToItem(str : String) : Item
+		{
+			try
+			{
+				var ba : ByteArray = Base64.decode(str);
+				ba.position = 0;
+				var vo : Object = ba.readObject();
+			}
+			catch (e : Error)
+			{
+				trace("物品序列化解码错误");
+				return null;
+			}
+
+			var item : Item = getItemFromChatVO(vo);
+
+			return item;
+		}
+
+		private static function getChatVOFromItem(item : Item) : Object
+		{
+			var vo : Object = new Object();
+
+			vo["id"] = item.id;
+			vo["binding"] = item.binding;
+
+			// if (item is IUnique)
+			// vo["uuid"] = (item as IUnique).uuid;
+
+			if (item is Equipment)
+				vo["enhanceLevel"] = (item as Equipment).enhanceLevel;
+
+			if (item is Soul)
+				vo["exp"] = (item as Soul).exp;
+
+			if (item is PileItem)
+				vo["nums"] = item.nums;
+
+			if (item is Sutra)
+			{
+				var gems : Vector.<uint> = new Vector.<uint>();
+				for each (var gem:Gem in (item as Sutra).gems)
+				{
+					gems.push(gem.id);
+				}
+				vo["gems"] = gems;
+			}
+
+			return vo;
+		}
+
+		private static function getItemFromChatVO(vo : Object) : Item
+		{
+			if (vo["id"] == undefined)
+				return null;
+
+			var item : Item = ItemManager.instance.newItem(vo["id"], vo["binding"]);
+
+			if (item is Equipment)
+				(item as Equipment).enhanceLevel = vo["enhanceLevel"];
+
+			if (item is Soul)
+				(item as Soul).exp = vo["exp"];
+
+			if (item is Sutra && vo["gems"])
+			{
+				var gems : Array = [];
+				for each (var gemId:uint in vo["gems"])
+				{
+					var gem : Gem = ItemManager.instance.newItem(gemId);
+
+					if (gem)
+						gems.push(gem);
+				}
+				(item as Sutra).gems = gems;
+			}
+			
+			return item;
+		}
+	}
+}
+>>>>>>> 3a3fe775d3c255da7caa40de45ae855c1b4a9ab7

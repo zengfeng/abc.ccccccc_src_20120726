@@ -1,0 +1,33 @@
+﻿<links>
+	<!--  
+		type 
+			1:点击打开功能面板
+			2:点击出事件
+			3:点击打开新链接
+			4:点击关闭
+			5:继续向服务器发送相应协议0x38
+		messgae
+			显示出来的文本链接
+		link
+			type=1  功能面板ID（ID编号参照menu.xml）
+			type=2  事件编号
+			type=3  打开新npc链接   用|分隔
+	-->
+	<item id="1"  type="5" messgage="我要参加家族进献活动" />
+	<item id="2"  type="4" messgage="家族进献活动还没开放" />
+
+	<item id="3"  type="5" messgage="家族寻宝"  />
+	<item id="4"  type="4" messgage="家族寻宝还没开放" />
+	
+	<item id="5"  type="1" messgage="立即开始仙龟拜佛，今日还能完成1次"  link="111" />
+	<item id="6"  type="1" messgage="立即开始仙龟拜佛，今日还能完成2次"  link="111" />
+	<item id="7"  type="1" messgage="立即开始仙龟拜佛，今日还能完成3次"  link="111" />
+	<item id="8"  type="1" messgage="立即开始仙龟拜佛，今日还能完成4次"  link="111" />
+	<item id="13"  type="4" messgage="今日仙龟拜佛次数已用完" />
+	<item id="14"  type="1" messgage="继续上次仙龟拜佛" link="111" />
+	
+	
+	<item id="15"  type="2" messgage="开始钓鱼"  link="1" />
+	<item id="16"  type="2" messgage="继续上次钓鱼"  link="2" />
+	<item id="17"  type="4" messgage="今日仙钓鱼佛次数已用完" link="3"/>
+</links>

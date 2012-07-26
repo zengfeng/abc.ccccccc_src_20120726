@@ -1,0 +1,34 @@
+<map>
+  <scene id="302" name="聚妖台" width="4096" height="3840" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="2953" standY="413" id="0" x="2866" y="427" skinId="0" rotation="0"/>
+    <gate kind="next" standX="1074" standY="2381" id="1" toScene="3" x="932" y="2307" skinId="0" rotation="0"/>
+    <npc id="4211" x="2023" y="1192" moveRadius="280" attackRadius="70">
+      <point x="1851" y="1137"/>
+      <point x="1936" y="1272"/>
+      <point x="2047" y="1337"/>
+      <point x="2175" y="1303"/>
+      <point x="2186" y="1227"/>
+    </npc>
+    <npc id="4212" x="2782" y="2109" moveRadius="310" attackRadius="70">
+      <point x="2615" y="1991"/>
+      <point x="2615" y="2193"/>
+      <point x="2774" y="2305"/>
+      <point x="2909" y="2283"/>
+      <point x="3000" y="2077"/>
+    </npc>
+    <npc id="4213" x="1174" y="2307" attackRadius="130">
+      <point x="1074" y="2407"/>
+      <point x="1124" y="2407"/>
+      <point x="1174" y="2407"/>
+      <point x="1224" y="2407"/>
+      <point x="1274" y="2407"/>
+    </npc>
+    <npc id="4267" x="1543" y="2494" attackRadius="100">
+      <point x="1550" y="2519"/>
+      <point x="1562" y="2511"/>
+      <point x="1551" y="2528"/>
+      <point x="1556" y="2518"/>
+      <point x="1558" y="2527"/>
+    </npc>
+  </scene>
+</map>

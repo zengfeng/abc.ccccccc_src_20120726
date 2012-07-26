@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- 快速复活花费 -->
+	<faseRevive gold="10"/>
+	<!-- 奖励物品 -->
+	<awardGoods id="1800" numColor="0xFFFF00"/>
+	<!-- 动态消息 -->
+	<news>
+		<!-- A战胜B -->
+		<win><![CDATA[__WIN_PLAYER__战胜了__LOSE_PLAYER__，已<font color="#FFFF00">__KILL_COUNT__</font>连胜，获得<font color="#FFFF00">__WIN_SILVER__</font>银币、__WIN_GOODS__]]></win>
+		<!-- 空等 轮空 -->
+		<emptyWait ><![CDATA[__PLAYER__轮空1分钟，获得__SILVER__银币，__GOODS__]]></emptyWait>
+		<!-- 首杀 -->
+		<firstKill  ><![CDATA[__WIN_PLAYER__干掉了__LOSE_PLAYER__，拿到了第一滴血！]]></firstKill>
+		<!-- 连胜列表 -->
+		<winKillList>
+			<item killCount="3"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">3</font>场，初露锋芒，迈出胜利的第一步！]]></item>
+			<item killCount="4"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">4</font>场，稳扎稳打，没有露出丝毫破绽！]]></item>
+			<item killCount="5"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">5</font>场，击碎了对手的意志，对手已经溃不成军了！]]></item>
+			<item killCount="6"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">6</font>场，杀气几乎令敌人窒息！]]></item>
+			<item killCount="7"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">7</font>场，嗜杀成性，已经丧失神智了！]]></item>
+			<item killCount="8"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">8</font>场，神挡杀神，佛挡杀佛，快去阻止他！]]></item>
+			<item killCount="9"><![CDATA[__WIN_PLAYER__连胜<font color="#FFFF00">9</font>场，修罗附体，已经杀得变态了！]]></item>
+			<item killCount="10"><![CDATA[__WIN_PLAYER__达到<font color="#FFFF00">10</font>连胜，已经天下无敌了，但求一败！]]></item>
+			<item killCount="100"><![CDATA[__WIN_PLAYER__达到<font color="#FFFF00">__KILL_COUNT__</font>连胜，已经天下无敌了，但求一败！]]></item>
+		</winKillList>
+		
+		<!-- 连胜被击杀 -->
+		<loseKillList>			
+			<item killCount="5"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">5</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="6"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">6</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="7"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">7</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="8"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">8</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="9"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">9</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="10"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">10</font>连胜被__WIN_PLAYER__终结了]]></item>
+			<item killCount="100"><![CDATA[__LOSE_PLAYER__的<font color="#FFFF00">__KILL_COUNT__</font>连胜被__WIN_PLAYER__终结了]]></item>
+		</loseKillList>
+	</news>
+</root>

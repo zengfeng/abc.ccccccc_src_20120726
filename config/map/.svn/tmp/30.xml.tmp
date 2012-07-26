@@ -1,0 +1,72 @@
+<map>
+  <scene id="30" name="家族主城" width="2560" height="1792" pieceW="256" pieceH="256" distant="">
+<<<<<<< .mine
+    <gate kind="in" standX="1477" standY="1301" x="1310" y="1158"/>
+    <gate kind="next" standX="1830" standY="1018" toScene="10101" x="1855" y="985"/>
+    <npc id="3001" x="1440" y="977">
+      <point x="1185" y="978"/>
+      <point x="1210" y="908"/>
+      <point x="1214" y="1050"/>
+      <point x="1278" y="1115"/>
+      <point x="1505" y="1046"/>
+=======
+    <gate kind="in" standX="1477" standY="1301" x="1310" y="1158"/>
+    <gate kind="next" standX="1830" standY="1018" toScene="10101" x="1855" y="985"/>
+    <npc id="3001" x="1432" y="980">
+      <point x="1177" y="981"/>
+      <point x="1202" y="911"/>
+      <point x="1206" y="1053"/>
+      <point x="1270" y="1118"/>
+      <point x="1408" y="1047"/>
+>>>>>>> .r8782
+    </npc>
+<<<<<<< .mine
+    <npc id="3002" x="1704" y="1114">
+      <point x="1575" y="1125"/>
+      <point x="1596" y="1175"/>
+      <point x="1664" y="1213"/>
+      <point x="1737" y="1210"/>
+      <point x="1793" y="1194"/>
+=======
+    <npc id="3002" x="1726" y="1011">
+      <point x="1591" y="1020"/>
+      <point x="1610" y="1053"/>
+      <point x="1638" y="1082"/>
+      <point x="1764" y="1104"/>
+      <point x="1815" y="1091"/>
+>>>>>>> .r8782
+    </npc>
+<<<<<<< .mine
+    <npc id="3003" x="917" y="1312">
+      <point x="1011" y="1266"/>
+      <point x="1035" y="1289"/>
+      <point x="1020" y="1340"/>
+      <point x="1058" y="1301"/>
+      <point x="1084" y="1314"/>
+=======
+    <npc id="3003" x="975" y="1345">
+      <point x="1007" y="1252"/>
+      <point x="1032" y="1276"/>
+      <point x="1128" y="1314"/>
+      <point x="1056" y="1298"/>
+      <point x="1090" y="1314"/>
+>>>>>>> .r8782
+    </npc>
+<<<<<<< .mine
+    <npc id="3004" x="607" y="654">
+      <point x="656" y="685"/>
+      <point x="622" y="707"/>
+      <point x="576" y="715"/>
+      <point x="716" y="626"/>
+      <point x="694" y="661"/>
+=======
+    <npc id="3004" x="693" y="676">
+      <point x="756" y="745"/>
+      <point x="676" y="755"/>
+      <point x="611" y="719"/>
+      <point x="810" y="620"/>
+      <point x="821" y="693"/>
+>>>>>>> .r8782
+    </npc>
+  </scene>
+</map>

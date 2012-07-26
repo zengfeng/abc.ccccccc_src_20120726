@@ -1,0 +1,19 @@
+<heroProp>
+	<Hero>
+		<item id="50" name="name" x="0" y="10">
+
+		<![CDATA[<b><font color="#000000">name   </font><font color="#000000">*****</font><font color="#000000">级</font></b>]]>
+		</item>
+		<item id="51" name="job" x="0" y="28">
+		<![CDATA[<font color="#000000">职业:</font><font color="#000000">*****</font><font color="#000000">#####</font>]]>
+		</item>
+		<!-- 
+		<item id="52" name="skillEffect" x="50" y="50" >
+		<![CDATA[<font color="#000000">提升成功概率</font><font color="#000000">*****</font><font color="##000000">#####</font>]]> 
+		</item>
+		-->
+		<item id="54" name="potential" x="0" y="46">
+		<![CDATA[<font color="#000000">潜力:</font><font color="#000000">*****</font>]]>
+		</item>
+	</Hero>
+</heroProp>

@@ -1,0 +1,20 @@
+<map>
+  <scene id="221" name="熔岩巨兽层" width="1536" height="1536" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="857" standY="831" id="0" x="655" y="680" skinId="0" rotation="0"/>
+    <gate kind="next" standX="574" standY="615" id="1" toScene="2" x="540" y="598" skinId="0" rotation="0"/>
+    <npc id="4144" x="534" y="601" attackRadius="100">
+      <point x="549" y="598"/>
+      <point x="560" y="608"/>
+      <point x="552" y="603"/>
+      <point x="552" y="610"/>
+      <point x="551" y="602"/>
+    </npc>
+    <npc id="4171" x="698" y="730" attackRadius="90">
+      <point x="708" y="754"/>
+      <point x="707" y="750"/>
+      <point x="707" y="752"/>
+      <point x="710" y="749"/>
+      <point x="697" y="749"/>
+    </npc>
+  </scene>
+</map>

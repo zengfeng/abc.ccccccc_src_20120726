@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- 世界地图配置 -->
+	<worldMapList>
+		<map id="1" name="飘渺仙宫" openLevel="1" />
+		<map id="2" name="上古之树" openLevel="10" />
+		<map id="3" name="岩溶之心" openLevel="30" />
+		<map id="4" name="永冰寒冰" openLevel="50" />
+		<map id="5" name="苗蛊国" openLevel="100" />
+		<map id="6" name="颠倒国" openLevel="100" />
+		<map id="20" name="蜀山仙境" openLevel="20" />
+	</worldMapList>
+	
+	<!-- 副本地图配置 -->
+	<copyMapList>
+		<map id="200" name="树之国副本" openLevel="3" parentMap="2" />
+		<map id="30" name="家族主城" openLevel="20" parentMap="20" />
+		<map id="31" name="家族运镖" openLevel="20" parentMap="20" />
+		<map id="32" name="家族寻宝" openLevel="20" parentMap="20" />
+		<map id="1000001" name="蜀山论剑" openLevel="20" parentMap="20" />
+	</copyMapList>
+</root>

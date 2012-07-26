@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- 实例 -->
+	<!-- 
+	<file mapId="2" src="assets/dungeonCover/200.jpg" key="dungeonCover_200" describe="描述" />
+	<file mapId="2" src="assets/ico/buffStatus/buff_0.png" describe="描述" />
+	-->
+	<file mapId="43" src="assets/swf/lang/zh_CN/mapGroupBattle.swf" key="groupBattle" loadClass="SWFLoader" isRepeat="false" describe="蜀山论剑素材" />
+	<file mapId="44" src="assets/swf/mining.swf" key="mining" loadClass="SWFLoader" isRepeat="true" describe="采矿素材" />
+</root>

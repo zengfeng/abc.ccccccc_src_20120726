@@ -1,0 +1,34 @@
+<map>
+  <scene id="204" name="七彩蝶屋" width="3328" height="3072" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1423" standY="2440" id="0" x="1527" y="2321" skinId="0" rotation="0"/>
+    <gate kind="next" standX="2023" standY="954" id="1" toScene="2" x="1992" y="829" skinId="0" rotation="0"/>
+    <npc id="4141" x="1887" y="2061" moveRadius="250" attackRadius="70">
+      <point x="1753" y="2006"/>
+      <point x="1768" y="2184"/>
+      <point x="1886" y="2183"/>
+      <point x="2028" y="2149"/>
+      <point x="2047" y="2035"/>
+    </npc>
+    <npc id="4142" x="1077" y="1799" moveRadius="230" attackRadius="80">
+      <point x="951" y="1798"/>
+      <point x="995" y="1895"/>
+      <point x="1134" y="1923"/>
+      <point x="1177" y="1916"/>
+      <point x="1244" y="1823"/>
+    </npc>
+    <npc id="4143" x="1722" y="858" attackRadius="200">
+      <point x="1622" y="958"/>
+      <point x="1672" y="958"/>
+      <point x="1722" y="958"/>
+      <point x="1772" y="958"/>
+      <point x="1822" y="958"/>
+    </npc>
+    <npc id="4170" x="1262" y="1138" attackRadius="130">
+      <point x="1246" y="1165"/>
+      <point x="1265" y="1159"/>
+      <point x="1263" y="1178"/>
+      <point x="1254" y="1175"/>
+      <point x="1256" y="1159"/>
+    </npc>
+  </scene>
+</map>

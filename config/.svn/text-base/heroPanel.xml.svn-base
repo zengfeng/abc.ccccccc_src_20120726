@@ -1,0 +1,119 @@
+﻿<heroPanel>
+	<HeroPropPanel>
+		<item id="1" name="strength" y="12" tips="影响攻击力和反击" text="力量">
+		<![CDATA[<font color="#2F1F00">力量   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+		</item>
+
+		<item id="2" name="quick" y="29" tips="影响速度和闪躲" text="敏捷">
+		<![CDATA[<font color="#2F1F00">敏捷   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="3" name="physique" y="46" tips="影响生命和防御" text="体魄">
+		<![CDATA[<font color="#2F1F00">体魄   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+		<item id="4" name="hp" y="74" tips="名仙的最高生命值" text="生命">
+		<![CDATA[<font color="#2F1F00">生命   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+		</item>
+
+		<item id="5" name="act" y="91" tips="名仙的攻击力" text="攻击">
+		<![CDATA[<font color="#2F1F00">攻击   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="6" name="magic_act" y="108" tips="影响技能攻击力" text="仙攻">
+		<![CDATA[<font color="#2F1F00">仙攻   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="7" name="def" y="125" tips="名仙的防御力" text="防御">
+		<![CDATA[<font color="#2F1F00">防御   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="8" name="speed" y="142" tips="影响在战斗中的出手速度" text="速度">
+		<![CDATA[<font color="#2F1F00">速度   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="9" name="gauge_initial" y="173" tips="影响战斗开始时的聚气值" text="聚气">
+		<![CDATA[<font color="#2F1F00">聚气   </font><font color="#2F1F00">*****</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="20" name="hit" y="190" tips="影响攻击时的命中概率" text="命中">
+		<![CDATA[<font color="#2F1F00">命中   </font><font color="#2F1F00">*****%</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="21" name="dodge" y="207" tips="影响被攻击时的闪躲概率" text="闪躲">
+		<![CDATA[<font color="#2F1F00">闪躲   </font><font color="#2F1F00">*****%</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="22" name="crit" y="224" tips="攻击时伤害提高的触发概率" text="暴击">
+		<![CDATA[<font color="#2F1F00">暴击   </font><font color="#2F1F00">*****%</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="23" name="pierce" y="241" tips="攻击时无视对方防御值的触发概率" text="破击">
+		<![CDATA[<font color="#2F1F00">破击   </font><font color="#2F1F00">*****%</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="24" name="counter" y="258" tips="被攻击时立即反击对方的触发概率" text="反击">
+		<![CDATA[<font color="#2F1F00">反击   </font><font color="#2F1F00">*****%</font><font color="#ff0000">+#####</font>]]>
+
+		</item>
+
+		<item id="30" name="predef" y="" tips="被攻击时受到的伤害降低" text="减伤"> 
+		<![CDATA[<font color="#ffffff">减伤   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="31" name="magic_pierce" y="" tips="触发技能时伤害提高" text="仙破">
+		 <![CDATA[<font color="#2F1F00">仙破   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="32" name="critmul" y="" tips="暴击时伤害提升" text="高爆">  
+		<![CDATA[<font color="#2F1F00">高爆   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="33" name="piercedef" y="" tips="降低被破击时受到的伤害" text="防破">
+		<![CDATA[<font color="#2F1F00">防破   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="34" name="countermul" y="" tips="反击时伤害提升" text="高反">  
+		<![CDATA[<font color="#2F1F00">高反   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="35" name="harm" y="" tips="攻击时无视对方防御百分比" text="穿透"> 
+		<![CDATA[<font color="#2F1F00">穿透   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+		<item id="37" name="gauge_speed" y="" tips="聚气速度提升" text="高涨"> 
+		<![CDATA[<font color="#2F1F00">高涨   </font><font color="#2F1F00">*****%</font><font color="#2F1F00">+#####</font>]]>
+		</item>
+	</HeroPropPanel>
+	<HeroNature>
+
+		<item id="50" name="name" x="1" y="12">
+		<![CDATA[<font color="#2F1F00">姓名:</font><font color="#2F1F00">*****</font>]]>
+
+		</item>
+
+		<item id="51" name="job" x="170" y="12">
+		<![CDATA[<font color="#2F1F00">职业:</font><font color="#2F1F00">*****</font>]]>
+
+		</item>
+
+		<!-- <item id="52" name="skill" x="150" y="25" > <![CDATA[<font color="#2F1F00">技能名字: 
+			</font><font color="#2F1F00">*****</font><font color="##2F1F00">#####</font>]]> 
+
+			</item> -->
+
+		<item id="53" name="bt" x="1" y="32">
+		<![CDATA[<font color="#2F1F00">战斗力:</font><font color="#2F1F00">*****</font>]]>
+
+		</item>
+
+		<item id="54" name="potential" x="170" y="32">
+		<![CDATA[<font color="#2F1F00">潜力:</font><font color="#2F1F00">*****</font>]]>
+
+		</item>
+	</HeroNature>
+</heroPanel>

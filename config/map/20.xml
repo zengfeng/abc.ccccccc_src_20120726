@@ -1,0 +1,40 @@
+<map>
+  <scene id="20" name="蜀山城" width="8704" height="7168" pieceW="256" pieceH="256" distant="" needMask="true" >
+    <gate kind="in" standX="1404" standY="4904" id="0" x="1404" y="4904"/>
+    <npc id="2002" x="5770" y="3168">
+      <point x="5703" y="3065"/>
+      <point x="5677" y="3096"/>
+      <point x="5685" y="3167"/>
+      <point x="5669" y="3132"/>
+      <point x="5709" y="3198"/>
+    </npc>
+    <npc id="2001" x="3609" y="5376">
+      <point x="3501" y="5382"/>
+      <point x="3531" y="5418"/>
+      <point x="3575" y="5442"/>
+      <point x="3632" y="5438"/>
+      <point x="3690" y="5413"/>
+    </npc>
+    <npc id="2004" x="7235" y="1051">
+      <point x="7134" y="1043"/>
+      <point x="7152" y="1068"/>
+      <point x="7179" y="1096"/>
+      <point x="7218" y="1107"/>
+      <point x="7263" y="1111"/>
+    </npc>
+    <npc id="2003" x="2764" y="4013">
+      <point x="2668" y="4026"/>
+      <point x="2708" y="4071"/>
+      <point x="2757" y="4088"/>
+      <point x="2813" y="4083"/>
+      <point x="2855" y="4048"/>
+    </npc>
+    <npc id="3007" x="5882" y="1691">
+      <point x="5875" y="1763"/>
+      <point x="5840" y="1752"/>
+      <point x="5961" y="1762"/>
+      <point x="5905" y="1764"/>
+      <point x="5935" y="1766"/>
+    </npc>
+  </scene>
+</map>

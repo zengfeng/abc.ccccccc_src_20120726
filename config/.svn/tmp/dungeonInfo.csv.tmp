@@ -1,0 +1,9 @@
+<<<<<<< .mine
+副本编号;副本名称
+200;深幽树洞;1;aaaaaaaaaaa
+300;熔炎矿洞;1;aaaaaaaaaaa
+=======
+副本编号;副本名称;锁妖塔进入等级;掉落物品
+200;深幽树洞;20;<font color='#3882D4'>仙木套装</font>,<font color='#279F15'>龙纹玉玦</font>
+300;熔岩地穴;30;<font color='#3882D4'>赤炼套装</font>,<font color='#279F15'>龙纹玉玦</font>,<font color='#3882D4'>七星符印</font>
+>>>>>>> .r7924

@@ -1,0 +1,41 @@
+<vip>
+	<!--
+		level VIP等级
+		gold VIP各等级所需充值的元宝总数
+		open 相应等级的VIP开启的特权id
+		openNumber 相应特权的数值，若为0则表示“开启”
+		treasurePackage VIP礼包
+	 -->
+	<vipconfig level="0" gold="0" friend="30" open="3,6" openNumber="12,3" treasurePackage=""/>
+	<vipconfig level="1" gold="100" friend="30" open="1,2,3,4,5" openNumber="70,0,0,0,3" treasurePackage="25004,200,2501,5,2005,1"/>
+	<vipconfig level="2" gold="500" friend="30" open="5,1,2,3,4" openNumber="80,0,0,0,3" treasurePackage="25004,400,2501,10,2006,1"/>
+	<vipconfig level="3" gold="1000" friend="50" open="6,5,1,2,3,4" openNumber="50,90,0,0,0,3" treasurePackage="25004,600,2501,15,2006,1"/>
+	<vipconfig level="4" gold="2000" friend="55" open="8,7,6,5,1,2,3,4" openNumber="6,25,55,100,0,0,0,3" treasurePackage="25004,800,2501,20,2006,2"/>
+	<vipconfig level="5" gold="5000" friend="60" open="8,6,5,7,1,2,3,4" openNumber="8,60,110,25,0,0,0,3" treasurePackage="25004,1000,2502,10,2006,2"/>
+	<vipconfig level="6" gold="10000" friend="65" open="11,10,9,8,7,6,5,1,2,3,4" openNumber="0,30,0,10,30,65,120,0,0,0,3" treasurePackage="25004,1500,9011,1,2502,15,2006,2"/>
+	<vipconfig level="7" gold="20000" friend="70" open="8,6,5,11,10,9,7,1,2,3,4" openNumber="12,70,130,0,30,0,30,0,0,0,3" treasurePackage="25004,2000,9251,2,2502,20,2006,4"/>
+	<vipconfig level="8" gold="50000" friend="80" open="7,8,6,5,11,10,9,1,2,3,4" openNumber="35,14,80,140,0,30,0,0,0,0,3" treasurePackage="25004,2500,9041,1,2503,10,2006,6"/>
+	<vipconfig level="9" gold="100000" friend="90" open="8,6,5,7,11,10,9,1,2,3,4" openNumber="16,90,150,35,0,30,0,0,0,0,3" treasurePackage="25004,3000,9251,4,2503,15,2006,8"/>
+	<vipconfig level="10" gold="200000" friend="100" open="10,8,6,5,7,11,9,1,2,3,4" openNumber="40,18,100,160,40,0,0,0,0,0,3" treasurePackage="25004,4000,9051,1,2504,10,2006,10"/>
+	<vipconfig level="11" gold="500000" friend="110" open="8,6,5,7,10,11,9,1,2,3,4" openNumber="20,110,170,45,40,0,0,0,0,0,3" treasurePackage="25004,5000,9251,6,2504,15,2006,12"/>
+	<vipconfig level="12" gold="1000000" friend="120" open="10,8,6,5,7,11,9,1,2,3,4" openNumber="50,24,120,180,50,0,0,0,0,0,3" treasurePackage="25004,6000,9101,1,2504,20,2006,14"/>
+	
+	<!--
+		id 特权id
+		type 1为特权数值，2为特权“开启”或“无”
+		name 特权名称
+		text 特权数值单位，如果为空则表示该特权是开启
+		default 默认值
+	 -->
+	<item id="1" type="2" name="元神：高级召唤功能" text="" defaultNum="-1"/>
+	<item id="2" type="2" name="七彩仙洞：消费元宝采集仙石功能" text="" defaultNum="-1"/>
+	<item id="3" type="1" name="免费传送：免费日常面板传送功能" text="" defaultNum="-1"/>
+	<item id="4" type="2" name="炼妖壶：每日重置次数增加到" text="次" defaultNum="1"/>
+	<item id="5" type="2" name="包裹扩展：包裹上限提高到" text="格" defaultNum="60"/>
+	<item id="6" type="1" name="社交：知己的个数上限增加到" text="位" defaultNum="30"/>
+	<item id="7" type="1" name="悬赏令：任务累积上限提高为" text="个" defaultNum="20"/>
+	<item id="8" type="1" name="神器：消费元宝铸魂次数增加" text="次" defaultNum="30"/>
+	<item id="9" type="1" name="七彩仙洞：批量采集仙石功能" text="" defaultNum="-1"/>
+	<item id="10" type="2" name="元神：每日高级召唤使用次数提升到" text="次" defaultNum="20"/>
+	<item id="11" type="1" name="元神：批量召唤元神功能" text="" defaultNum="-1"/>
+</vip>

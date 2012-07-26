@@ -1,0 +1,34 @@
+<map>
+  <scene id="205" name="魅香花窟" width="4864" height="3584" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="4013" standY="2091" id="0" x="3831" y="2148" skinId="0" rotation="0"/>
+    <gate kind="next" standX="1087" standY="1324" id="1" toScene="2" x="1003" y="1219" skinId="0" rotation="0"/>
+    <npc id="4131" x="3011" y="2301" moveRadius="250" attackRadius="80">
+      <point x="2911" y="2401"/>
+      <point x="2961" y="2401"/>
+      <point x="3011" y="2401"/>
+      <point x="3061" y="2401"/>
+      <point x="3111" y="2401"/>
+    </npc>
+    <npc id="4132" x="2247" y="2036" moveRadius="250" attackRadius="70">
+      <point x="2147" y="2136"/>
+      <point x="2197" y="2136"/>
+      <point x="2247" y="2136"/>
+      <point x="2297" y="2136"/>
+      <point x="2347" y="2136"/>
+    </npc>
+    <npc id="4133" x="1256" y="1176" attackRadius="180">
+      <point x="1164" y="1274"/>
+      <point x="1218" y="1273"/>
+      <point x="1265" y="1275"/>
+      <point x="1324" y="1270"/>
+      <point x="1368" y="1272"/>
+    </npc>
+    <npc id="4169" x="1582" y="1509" attackRadius="130">
+      <point x="1609" y="1540"/>
+      <point x="1599" y="1545"/>
+      <point x="1609" y="1539"/>
+      <point x="1608" y="1542"/>
+      <point x="1615" y="1540"/>
+    </npc>
+  </scene>
+</map>

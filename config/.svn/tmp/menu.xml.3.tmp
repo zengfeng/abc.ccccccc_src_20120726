@@ -1,0 +1,66 @@
+﻿<menu>
+<!--  
+	id  		面板编号
+	type 		类型   1  主面板按钮    2  右侧按钮   3  上面按钮  10 其它  
+	tips        
+	level       出现等级   
+	coexist     可以并存的面板
+	sortId      多面板从左到右的平铺顺序
+	sortIndex   下面按钮从右到左的平铺顺序越小越往右
+	stack       层级
+                description  开启描述文字
+ -->
+	<item id="1" name="将领面板" description="" coexist="2,101,13,140" sortIndex="1" sortId="1" stack="10" type="1" tips="角色" level="1" ioc="hero"  url="module/heroPanel/HeroPanel.swf" classString="game.module.heroPanel.HeroPanel" />
+	<item id="2" name="背包" description="" coexist="1" type="1" stack="10" sortIndex="2" sortId="2" tips="包裹" level="1" ioc="pack" url="module/pack/PackView.swf" classString="game.module.pack.PackView" />
+	<item id="3" name="阵型" description="阵型系统开启，对出战名仙进行排兵布阵" type="1" tips="阵型" stack="10" sortIndex="3" sortId="2" level="1" ioc="formation" url="module/formation/FormationView.swf" classString="game.module.formation.FormationView" />
+	<item id="4" name="法宝" description="法宝系统开启，铸炼名仙法宝增强威力" type="1" tips="法宝" stack="10" sortIndex="5" sortId="4" level="1" ioc="weapon"  url="module/sutra/SutraView.swf" classString="game.module.sutra.SutraView" />
+	<item id="5" name="元神" description="元神系统开启，猎取元神大大提升实力" type="1" tips="元神" stack="10" sortIndex="7" sortId="5" level="1" ioc="soul"  url="module/soul/SoulView.swf" classString="game.module.soul.SoulView" />
+	<item id="6" name="强化" description="强化系统开启，强化装备提高装备属性" type="1" tips="强化" stack="10" sortIndex="8" sortId="6" level="1" ioc="enhance"  url="module/enhance/EnhanceView.swf" classString="game.module.enhance.EnhanceView" />
+	<item id="7" name="灵珠" description="灵珠系统开启，鉴定原石获得稀有灵珠" type="1" tips="灵珠" stack="10" sortIndex="9" sortId="7" level="1" ioc="gem"  classString="game.module.gem.GemView" />
+	<item id="8" name="交易" description="交易系统开启，与人交易换取物品" type="1" tips="交易" stack="10" sortIndex="10" sortId="8" level="1" ioc="trade"  classString="game.module.trade.TradeView" />
+	<item id="9" name="家族" description="家族系统开启，寻找志同道合的伙伴共游仙境" type="1" tips="我的家族" stack="10" sortIndex="11" sortId="10" level="1" ioc="clan" classString="game.module.guild.GuildView" />
+	<item id="12" name="寻仙" description="寻仙系统开启，收集天材地宝招募心仪名仙" type="1" tips="寻仙" stack="10" sortIndex="13" sortId="4" level="1" ioc="heroic"  url="module/RecruitHeroView.swf" classString="game.module.recruitHero.RecruitView" />
+	<item id="13" name="知己" description="知己系统开启，互添好友成为知己" coexist="126,128,140" sortId="13" type="1" tips="知己" stack="10" sortIndex="14" level="101005"  ioc="friend" url="module/chat/chat.swf"  classString="game.module.friend.view.FriendView" />
+	<item id="14" name="打坐" description="打坐系统开启，离线挂机获取经验" type="1" tips="打坐" stack="1" sortIndex="15" sortId="17" level="1" ioc="practice"  classString="game.module.practice.PracticeView" />
+	
+	<item id="21" name="地图" type="2" tips="地图" stack="10" level="1" x="54" y="50" w="31" h="31" ioc="map"  classString="game.module.setting.SettingView" />
+	<item id="23" name="商城" type="2" tips="商城" stack="10" level="1" x="15" y="50" w="36" h="34" ioc="shopMenu" url="module/shop/ShopView.swf" classString="game.module.shop.ShopView" />
+	<item id="25" name="设置" type="2" tips="设置" stack="10" level="1" x="128" y="50" w="31" h="31" ioc="setting"  url="module/sort/SortView.swf" classString="game.module.sort.view.SortView" />
+	
+	<item id="31" name="登入奖励" type="3" sortIndex="2" level="1" stack="10" ioc="" tips="竞技场礼包" />
+	<item id="33" name="英雄会礼包" type="3" level="1" stack="10" ioc="" tips="英雄会礼包" />
+	<item id="34" name="在线奖励" type="3" sortIndex="7" level="1" stack="10" ioc="onLine" tips="在线奖励" classString="game.module.rewardPackage.OnlineGiftView"/>
+	<item id="35" name="聚宝府邸" description="" type="3" sortIndex="3" level="1" stack="10" ioc="" tips="聚宝府邸" />
+	<item id="36" name="日常" description="日常系统开启，网罗每日必做之事" type="3" sortIndex="8" level="1" stack="10" ioc="daily" tips="日常" classString="game.module.daily.DailyPanel" />
+	<item id="37" name="运营活动" type="3" sortIndex="6" level="1" ioc="" tips="运营活动" />
+	<item id="38" name="炼妖壶" description="炼妖壶系统开启，斩妖除魔收集装备" type="3" sortIndex="9" level="1" stack="1" ioc="demon" tips="炼妖壶" classString = "game.module.monsterPot.MonsterPotScene" />
+
+<<<<<<< .mine
+	<item id="39" name="竞技场" description="竞技场系统开启，与仙友切磋且获取福利" type="3" tips="竞技场"  stack="1" sortIndex="5" level="1" ioc="arena"  url="module/compete/CompeteView.swf" classString="game.module.compete.CompeteView" />
+	<item id="40" name="神器" description="神器系统开启，挑战守护者获得传世神器" type="3" tips="神器" stack="1" sortIndex="4" level="1" ioc="art"  url="module/artifact/ArtifactView.swf" classString="game.module.artifact.ArtifactView" />
+=======
+	<item id="39" name="竞技场" description="竞技场系统开启，与仙友切磋且获取福利" type="3" tips="竞技场"  stack="1" sortIndex="5" level="101026" ioc="arena"  url="module/compete/CompeteView.swf" classString="game.module.compete.CompeteView" />
+	<item id="40" name="神器" description="神器系统开启，挑战守护者获得传世神器" type="3" tips="神器" stack="1" sortIndex="4" level="201002" ioc="art"  url="module/artifact/ArtifactView.swf" classString="game.module.artifact.ArtifactView" />
+>>>>>>> .r11867
+	<item id="41" name="礼包整合" description="礼包多多，过期不候哦" type="3" sortIndex="11" level="1" stack="10" ioc="gift" tips="大礼包" classString="game.module.rewardPackage.PackageRewardPanel" />
+	<item id="42" name="高级寻仙" description="寻了个仙" type="10" sortIndex="11" stack="10" ioc="highFindHero" tips="高级寻仙" classString="game.module.recruitHero.highFindHero.HighFindHeroView" />
+	<!--	<item id="137" name="日常任务" description="礼包多多，过期不候哦" type="3" sortIndex="11" level="1" stack="10" ioc="gift" tips="大礼包" classString="game.module.quest.DailyQuestPanel" /> -->
+	
+	<item id="101" name="闭关修炼" type="10" tips="修炼" sortId="101" coexist="1" stack="10" level="1" x="170" y="45" w="31" h="31" ioc="trainInfo"  url="module/practice/TrainInfoView.swf" classString="game.module.heroPanel.TrainPanel" />
+	<item id="111" name="仙龟拜佛" type="10" tips="仙龟拜佛" stack="10" url="" classString="game.module.mapConvoy.ui.ConvoyOptionPanel" />
+	
+	<item id="122" name="品茶" type="10" tips="品茶" stack="10"  url="" classString="game.module.tasteTea.TastePanel" />
+	<item id="124" name="开天斧" type="10" tips="开天斧" stack="10" url="" classString="game.module.wordDonate.DonatePanelView" />
+	<item id="125" name="开天斧贡献排行榜" type="10" tips="开天斧贡献排行榜" stack="10" url="" classString="game.module.wordDonate.ContributionList" />
+	<item id="126" name="好友申请表" coexist="13" sortId="126" type="10" tips="好友申请表" stack="10" url="" classString="game.module.friend.view.FriendApplyView" />
+	<item id="127" name="奖励面板" type="10" tips="" stack="10" url="" classString="game.module.notification.ActionRewardPanel" />
+	<item id="128" name="私聊" coexist="13,140" sortId="128" type="10" tips="" stack="10" url="" classString="game.module.chatwhisper.view.WhisperModuleView" />
+	<item id="135" name="神秘商店" type="10" tips="神秘商店" stack="10" url="" classString="game.module.shop.mysteriousShop.MysteriousShop" />
+	<item id="136" name="vip充值" type="10" tips="vip充值" stack="10" url="" classString="game.module.vip.view.VIPView" />
+	<item id="137" name="悬赏令" type="10" stack="10" url="" classString="game.module.quest.DailyQuestPanel" /> 
+	<item id="138" name="黄泉深渊" type="10" stack="2" url="" classString="game.module.soul.abyss.AbyssView" />
+	<item id="139" name="防沉迷" type="10" stack="2" url="" classString="game.module.userPanel.WallowPanel" />
+	<item id="140" name="其他玩家将领" coexist="1,13,128" sortIndex="140" sortId="140" type="10" stack="10" url="module/heroPanel/HeroPanel.swf" classString="game.module.heroPanel.OtherHeroPanel" />
+	<item id="141" name="物品合成" type="10" stack="10" url="" classString="game.module.pack.merge.MergeView" />
+	<item id="142" name="仙龟拜佛打劫列表" type="10" stack="10" url="打劫列表" classString="game.module.notification.battleReport.BTReportPanel" />
+</menu>

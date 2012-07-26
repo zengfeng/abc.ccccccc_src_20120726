@@ -1,0 +1,17 @@
+变量名;名称;金刚;修罗;天师
+strengthGrowth;力量成长;2.5;3.5;4
+agilityGrowth;敏捷成长;2;3;2.75
+physiqueGrowth;体魄成长;4.5;2.5;2.25
+spellDamGrowth;附加法术伤害成长;12;15;20
+healthGrowth;生命成长;32;29;28
+attackGrowth;攻击力成长;10;10;12
+strengthToAttack;力量转攻击力;1;1;1
+strengthToCounter;力量转反击;0.003;0.003;0.003
+agilityToSpeed;敏捷转速度;1;1;1
+agilityToDodge;敏捷转闪避;0.003;0.003;0.003
+physiqueToHealth;体魄转生命;1;1;1
+physiqueToDefend;体魄转防御;0.5;0.5;0.5
+weakenfactor;弱化系数;1;1;1
+critfactor;暴击系数;1.5;1.5;1.5
+backatkfactor;反击伤害系数;0.5;0.5;0.5
+defendcontrol;防御控制系数;5000;5000;5000

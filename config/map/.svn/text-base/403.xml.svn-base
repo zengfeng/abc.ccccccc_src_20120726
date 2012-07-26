@@ -1,0 +1,34 @@
+<map>
+  <scene id="403" name="化雪天坛" width="2816" height="2816" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="872" standY="2218" id="0" x="901" y="2122" skinId="0" rotation="0"/>
+    <gate kind="next" standX="837" standY="762" id="1" toScene="4" x="768" y="745" skinId="0" rotation="0"/>
+    <npc id="4321" x="1109" y="1911" moveRadius="150" attackRadius="100">
+      <point x="1005" y="1867"/>
+      <point x="1031" y="1950"/>
+      <point x="1187" y="1970"/>
+      <point x="1237" y="1816"/>
+      <point x="1251" y="1904"/>
+    </npc>
+    <npc id="4322" x="1861" y="1376" moveRadius="250" attackRadius="100">
+      <point x="1746" y="1257"/>
+      <point x="1670" y="1406"/>
+      <point x="1799" y="1469"/>
+      <point x="1923" y="1477"/>
+      <point x="2003" y="1423"/>
+    </npc>
+    <npc id="4323" x="1066" y="766" attackRadius="120">
+      <point x="944" y="794"/>
+      <point x="1022" y="870"/>
+      <point x="1138" y="863"/>
+      <point x="1220" y="822"/>
+      <point x="1262" y="722"/>
+    </npc>
+    <npc id="4368" x="1505" y="990" attackRadius="100">
+      <point x="1520" y="1032"/>
+      <point x="1521" y="1033"/>
+      <point x="1520" y="1032"/>
+      <point x="1521" y="1030"/>
+      <point x="1523" y="1032"/>
+    </npc>
+  </scene>
+</map>

@@ -1,0 +1,38 @@
+<map>
+  <scene id="201" name="深幽树洞1层" width="3328" height="3072" pieceW="256" pieceH="256">
+    <gate kind="in" standX="42" standY="19" x="612" y="147"/>
+    <gate kind="next" standX="98" standY="148" toScene="202" x="1397" y="2248"/>
+    <monster difficulty="1,2" wave="1" x="1027" y="718" moveRadius="230" attackRadius="60" passColor="0xff0000">
+      <point x="59" y="41"/>
+      <point x="55" y="46"/>
+      <point x="60" y="49"/>
+      <point x="69" y="47"/>
+      <point x="68" y="42"/>
+    </monster>
+	 <monster difficulty="1,2" wave="2" x="1688" y="1195" moveRadius="230" attackRadius="60" passColor="0xffff00">
+      <point x="100" y="74"/>
+      <point x="100" y="78"/>
+      <point x="104" y="79"/>
+      <point x="109" y="77"/>
+      <point x="109" y="74"/>
+    </monster>
+<<<<<<< .mine
+    <monster difficulty="1,2" wave="3" x="2501" y="1857" moveRadius="230" attackRadius="60" passColor="0x00ff00"> 
+=======
+    <monster difficulty="1,2" wave="3" x="2501" y="1857" moveRadius="230" attackRadius="80" passColor="00ff00"> 
+>>>>>>> .r2433
+      <point x="152" y="112"/>
+      <point x="148" y="117"/>
+      <point x="151" y="122"/>
+      <point x="160" y="121"/>
+      <point x="162" y="115"/>
+    </monster>
+     <monster difficulty="1,2" wave="4" x="1851" y="2382" moveRadius="230" attackRadius="60" passColor="0">
+      <point x="109" y="148"/>
+      <point x="109" y="154"/>
+      <point x="114" y="156"/>
+      <point x="120" y="152"/>
+      <point x="120" y="148"/>
+    </monster>
+  </scene>
+</map>

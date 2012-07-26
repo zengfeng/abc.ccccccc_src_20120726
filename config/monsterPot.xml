@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<monsterPot>
+	<country id="2" name="树之国" openLevel="20" goodsExplain="仙木套装，龙纹玉玦">
+		<monsterItem id="4181" goodsName="1,2,3"/>
+		<monsterItem id="4182" goodsName="1,2,3"/>
+		<monsterItem id="4183" goodsName="1,2,3"/>
+		<monsterItem id="4184" goodsName="1,2,3"/>
+		<monsterItem id="4185" goodsName="1,2,3"/>
+	</country>
+	<country id="3" name="九阳国" openLevel="30" goodsExplain="赤炼套装，龙纹玉玦/七星符印">
+		<monsterItem id="4281" goodsName="1,2,3"/>
+		<monsterItem id="4282" goodsName="1,2,3"/>
+		<monsterItem id="4283" goodsName="1,2,3"/>
+		<monsterItem id="4284" goodsName="1,2,3"/>
+		<monsterItem id="4285" goodsName="1,2,3"/>
+	</country>
+	<country id="4" name="乐之国" openLevel="50" goodsExplain="广寒套装，龙纹玉玦/七星符印">
+		<monsterItem id="4381" goodsName="1,2,3"/>
+		<monsterItem id="4382" goodsName="1,2,3"/>
+		<monsterItem id="4383" goodsName="1,2,3"/>
+		<monsterItem id="4384" goodsName="1,2,3"/>
+		<monsterItem id="4385" goodsName="1,2,3"/>
+	</country>
+</monsterPot>

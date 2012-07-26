@@ -1,0 +1,34 @@
+<map>
+  <scene id="303" name="烈焰妖道层" width="3328" height="3840" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="2419" standY="2947" id="0" x="2284" y="2844" skinId="0" rotation="0"/>
+    <gate kind="next" standX="1796" standY="903" id="1" toScene="3" x="1795" y="851" skinId="0" rotation="0"/>
+    <npc id="4221" x="1448" y="2041" moveRadius="230" attackRadius="70">
+      <point x="1293" y="2076"/>
+      <point x="1569" y="2045"/>
+      <point x="1341" y="1964"/>
+      <point x="1571" y="2132"/>
+      <point x="1572" y="1981"/>
+    </npc>
+    <npc id="4222" x="892" y="1307" moveRadius="280" attackRadius="80">
+      <point x="689" y="1232"/>
+      <point x="705" y="1340"/>
+      <point x="792" y="1418"/>
+      <point x="1035" y="1425"/>
+      <point x="1126" y="1329"/>
+    </npc>
+    <npc id="4223" x="1560" y="811" attackRadius="100">
+      <point x="1460" y="911"/>
+      <point x="1510" y="911"/>
+      <point x="1560" y="911"/>
+      <point x="1610" y="911"/>
+      <point x="1660" y="911"/>
+    </npc>
+    <npc id="4268" x="1041" y="908" attackRadius="120">
+      <point x="1041" y="924"/>
+      <point x="1043" y="923"/>
+      <point x="1042" y="924"/>
+      <point x="1042" y="928"/>
+      <point x="1040" y="924"/>
+    </npc>
+  </scene>
+</map>

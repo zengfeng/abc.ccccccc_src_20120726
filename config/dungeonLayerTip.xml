@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<layer id="202"><![CDATA[<font color="#FFFF00" size="14"><b>巨洞幽蝠</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">寒冰晶魄</font>\n<font color="#279F15">10级绿色装备</font>\n<font color="#279F15">各类消耗品</font>]]></layer>	
+	<layer id="204"><![CDATA[<font color="#FFFF00" size="14"><b>披甲肉虫</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">麒麟苍角</font>\n<font color="#279F15">10级绿色装备</font>\n<font color="#279F15">各类消耗品</font>]]></layer>
+	<layer id="206"><![CDATA[<font color="#FFFF00" size="14"><b>异变树妖</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">子母法印</font>\n<font color="#279F15">10级绿色装备</font>\n<font color="#279F15">各类消耗品</font>]]></layer>
+	
+	<layer id="21"><![CDATA[<font color="#FFFF00" size="14"><b>巨洞幽蝠</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>\n<font color="#3882D4">仙木头饰</font>，<font color="#3882D4">仙木之戒</font>]]></layer>	
+	
+	<layer id="22"><![CDATA[<font color="#FFFF00" size="14"><b>披甲肉虫</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>\n<font color="#3882D4">仙木头饰</font>，<font color="#3882D4">仙木之戒</font>\n<font color="#3882D4">仙木长靴</font>，<font color="#3882D4">仙木坠饰</font>]]></layer>
+	
+	<layer id="23"><![CDATA[<font color="#FFFF00" size="14"><b>异变树妖</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>\n<font color="#3882D4">仙木头饰</font>，<font color="#3882D4">仙木之戒</font>\n<font color="#3882D4">仙木长靴</font>，<font color="#3882D4">仙木坠饰</font>\n<font color="#3882D4">仙木盔甲</font>，<font color="#3882D4">仙木束腰</font>]]></layer>
+	
+	<layer id="31"><![CDATA[<font color="#FFFF00" size="14"><b>熔岩巨兽</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>，<font color="#3882D4">七星符印</font>\n<font color="#3882D4">赤炼头饰</font>，<font color="#3882D4">赤炼之戒</font>]]></layer>	
+	
+	<layer id="32"><![CDATA[<font color="#FFFF00" size="14"><b>火麒麟</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>，<font color="#3882D4">七星符印</font>\n<font color="#3882D4">仙木头饰</font>，<font color="#3882D4">赤炼之戒</font>\n<font color="#3882D4">赤炼长靴</font>，<font color="#3882D4">赤炼坠饰</font>]]></layer>
+	
+	<layer id="33"><![CDATA[<font color="#FFFF00" size="14"><b>太阳神</b></font>\n<font color="#FFFFFF">掉落：</font>\n<font color="#279F15">龙纹玉玦</font>，<font color="#3882D4">七星符印</font>\n<font color="#3882D4">赤炼头饰</font>，<font color="#3882D4">赤炼之戒</font>\n<font color="#3882D4">赤炼长靴</font>，<font color="#3882D4">赤炼坠饰</font>\n<font color="#3882D4">赤炼盔甲</font>，<font color="#3882D4">赤炼束腰</font>]]></layer>
+</root>

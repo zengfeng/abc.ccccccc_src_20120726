@@ -1,0 +1,45 @@
+﻿<links>
+	<!--  
+		type 
+			1:点击打开功能面板
+			2:点击出事件
+			3:点击打开新链接
+			4:点击关闭
+			5:继续向服务器发送相应协议0x38
+		messgae
+			显示出来的文本链接
+		link
+			type=1  功能面板ID（ID编号参照menu.xml）
+			type=2  事件编号
+			type=3  打开新npc链接   用|分隔
+		iocName 			
+	-->
+	<item id="1"  type="5" icoName="action8" messgage="我要参加家族进献活动" />
+	<item id="2"  type="4" icoName="action8" messgage="家族进献活动还未开放" />
+	<item id="23"  type="4" icoName="action8" messgage="需家族等级达到3级开放" />
+	<item id="24"  type="4" icoName="action8" messgage="本周家族进献活动已结束" />
+	<item id="25"  type="1" messgage="物品合成"  link="141" />
+
+	<item id="3"  type="5" icoName="action7" messgage="立即加入家族寻宝"  />
+	<item id="4"  type="4" icoName="action7" messgage="本周家族寻宝活动还未开放" />
+	<item id="26"  type="4" icoName="action7" messgage="本周家族寻宝活动已结束" />
+	<item id="27"  type="4" icoName="action7" messgage="你已参加过本周的家族寻宝活动" />
+	
+	<item id="5"  type="1" icoName="action1" messgage="立即开始仙龟拜佛，今日还能完成1次"  link="111" />
+	<item id="6"  type="1" icoName="action1" messgage="立即开始仙龟拜佛，今日还能完成2次"  link="111" />
+	<item id="7"  type="1" icoName="action1" messgage="立即开始仙龟拜佛，今日还能完成3次"  link="111" />
+	<item id="8"  type="1" icoName="action1" messgage="立即开始仙龟拜佛，今日还能完成4次"  link="111" />
+	<item id="13"  type="4" icoName="action1" messgage="今日仙龟拜佛次数已用完" />
+	<item id="14"  type="5" icoName="action1" messgage="继续上次仙龟拜佛" link="111" />
+	
+	<item id="15"  type="5" icoName="daily3" messgage="开始钓鱼"/>
+	<item id="16"  type="5" icoName="daily3" messgage="继续上次钓鱼"/>
+	<item id="17"  type="4" icoName="daily3" messgage="今日钓鱼次数已用完"/>
+	<item id="18"  type="5" icoName="action5" messgage="我要参加蓬莱仙会" />
+	<item id="19"  type="4" icoName="action5" messgage="今天的蓬莱仙会尚未开启" />
+	
+	<item id="20"  type="5" icoName="daily4" messgage="贡献开天斧物资" />
+	<!--item id="21"  type="5" icoName="daily4" messgage="查看开天斧贡献排行" -->
+	
+	<item id="22"  type="5" icoName="action6" messgage="进入七彩仙洞" />
+</links>

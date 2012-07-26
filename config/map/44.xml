@@ -1,0 +1,56 @@
+<map>
+  <scene id="44" name="采矿" width="2560" height="2560" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1340" standY="629" id="0" x="1286" y="732" skinId="0" rotation="0"/>
+    <npc id="3009" x="1268" y="1333" customCursor="pickUp">
+      <point x="1326" y="1025"/>
+      <point x="1290" y="1023"/>
+      <point x="1215" y="1025"/>
+      <point x="1177" y="1026"/>
+      <point x="1251" y="1024"/>
+      <point x="1360" y="1028"/>
+      <point x="1395" y="1034"/>
+    </npc>
+    <npc id="3010" x="1164" y="1280" customCursor="pickUp">
+      <point x="1117" y="1346"/>
+      <point x="1090" y="1336"/>
+      <point x="1062" y="1321"/>
+      <point x="1035" y="1304"/>
+      <point x="1009" y="1280"/>
+    </npc>
+    <npc id="3011" x="1164" y="1143" customCursor="pickUp">
+      <point x="1101" y="1052"/>
+      <point x="1042" y="1088"/>
+      <point x="1017" y="1107"/>
+      <point x="1071" y="1069"/>
+      <point x="1135" y="1043"/>
+    </npc>
+    <npc id="3012" x="1106" y="1223" customCursor="pickUp">
+      <point x="973" y="1191"/>
+      <point x="977" y="1163"/>
+      <point x="986" y="1254"/>
+      <point x="974" y="1221"/>
+      <point x="995" y="1137"/>
+    </npc>
+    <npc id="3013" x="1377" y="1167" customCursor="pickUp">
+      <point x="1461" y="1054"/>
+      <point x="1519" y="1081"/>
+      <point x="1489" y="1067"/>
+      <point x="1425" y="1045"/>
+      <point x="1542" y="1097"/>
+    </npc>
+    <npc id="3014" x="1445" y="1219" customCursor="pickUp">
+      <point x="1579" y="1159"/>
+      <point x="1582" y="1194"/>
+      <point x="1580" y="1224"/>
+      <point x="1570" y="1249"/>
+      <point x="1563" y="1123"/>
+    </npc>
+    <npc id="3015" x="1382" y="1284" customCursor="pickUp">
+      <point x="1529" y="1310"/>
+      <point x="1550" y="1284"/>
+      <point x="1505" y="1327"/>
+      <point x="1477" y="1342"/>
+      <point x="1448" y="1353"/>
+    </npc>
+  </scene>
+</map>

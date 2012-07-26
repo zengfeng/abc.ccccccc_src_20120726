@@ -1,0 +1,437 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/tg.doc/!svn/ver/12890/Client/config
+END
+ge_waypoint.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/9894/Client/config/ge_waypoint.csv
+END
+weapon.csv
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tg.doc/!svn/ver/12550/Client/config/weapon.csv
+END
+userBuffStatus.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tg.doc/!svn/ver/12600/Client/config/userBuffStatus.xml
+END
+dungeonGoods.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tg.doc/!svn/ver/1712/Client/config/dungeonGoods.csv
+END
+store.csv
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/12773/Client/config/store.csv
+END
+groupBattle.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tg.doc/!svn/ver/12546/Client/config/groupBattle.xml
+END
+hero.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/12298/Client/config/hero.csv
+END
+formation.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/10334/Client/config/formation.csv
+END
+item.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/12823/Client/config/item.csv
+END
+guide.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/12593/Client/config/guide.xml
+END
+guildaction.csv
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tg.doc/!svn/ver/11135/Client/config/guildaction.csv
+END
+formation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/11335/Client/config/formation.xml
+END
+heroProp.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/6262/Client/config/heroProp.xml
+END
+moduleMenuConfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/tg.doc/!svn/ver/12758/Client/config/moduleMenuConfig.xml
+END
+quest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/12731/Client/config/quest.xml
+END
+guildtrend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/6570/Client/config/guildtrend.xml
+END
+daily.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/12353/Client/config/daily.xml
+END
+competerank.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/6710/Client/config/competerank.xml
+END
+battleMap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/12768/Client/config/battleMap.xml
+END
+dungeonLayerTip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tg.doc/!svn/ver/8573/Client/config/dungeonLayerTip.xml
+END
+npc.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/12845/Client/config/npc.csv
+END
+artifacts.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/12831/Client/config/artifacts.csv
+END
+soul.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/12785/Client/config/soul.csv
+END
+property.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/10417/Client/config/property.csv
+END
+function.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/11120/Client/config/function.csv
+END
+monster_prop_client.csv
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/tg.doc/!svn/ver/12200/Client/config/monster_prop_client.csv
+END
+Reward.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tg.doc/!svn/ver/10329/Client/config/Reward.xml
+END
+worldMap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/12494/Client/config/worldMap.xml
+END
+sysmsg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tg.doc/!svn/ver/12679/Client/config/sysmsg.xml
+END
+filterText.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12700/Client/config/filterText.xml
+END
+dungeon.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/12841/Client/config/dungeon.csv
+END
+mount.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/6787/Client/config/mount.csv
+END
+icoMenu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/12882/Client/config/icoMenu.xml
+END
+questAnimation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tg.doc/!svn/ver/12715/Client/config/questAnimation.xml
+END
+identify.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/2986/Client/config/identify.csv
+END
+loot.csv
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/12841/Client/config/loot.csv
+END
+material_merge.csv
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tg.doc/!svn/ver/10418/Client/config/material_merge.csv
+END
+item_open.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/6787/Client/config/item_open.csv
+END
+skillType.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/12841/Client/config/skillType.csv
+END
+heroPanel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/5366/Client/config/heroPanel.xml
+END
+setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/11413/Client/config/setting.xml
+END
+state.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/2202/Client/config/state.xml
+END
+mining.xml
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tg.doc/!svn/ver/11214/Client/config/mining.xml
+END
+monster.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/12797/Client/config/monster.csv
+END
+hero_skill.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12550/Client/config/hero_skill.csv
+END
+hero_prop.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/12256/Client/config/hero_prop.csv
+END
+vip.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/12550/Client/config/vip.csv
+END
+potential.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/6262/Client/config/potential.csv
+END
+dungeonName.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/2981/Client/config/dungeonName.csv
+END
+vip.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/12761/Client/config/vip.xml
+END
+filterTextF.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/8745/Client/config/filterTextF.xml
+END
+battleMonsters.csv
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/tg.doc/!svn/ver/12519/Client/config/battleMonsters.csv
+END
+keyframe.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/10692/Client/config/keyframe.xml
+END
+vars.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/4471/Client/config/vars.csv
+END
+dungeonInfo.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/9894/Client/config/dungeonInfo.csv
+END
+monsterPot.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12461/Client/config/monsterPot.xml
+END
+mapLoadFile.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/tg.doc/!svn/ver/12534/Client/config/mapLoadFile.xml
+END
+npc_action.xml
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12811/Client/config/npc_action.xml
+END
+donate_exp.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/7038/Client/config/donate_exp.csv
+END
+experience.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12630/Client/config/experience.csv
+END
+config.kt
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/12747/Client/config/config.kt
+END
+item_prop.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/12550/Client/config/item_prop.csv
+END
+enhance.csv
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/tg.doc/!svn/ver/9894/Client/config/enhance.csv
+END
+fish_point.csv
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/tg.doc/!svn/ver/7038/Client/config/fish_point.csv
+END
+boss.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/7038/Client/config/boss.csv
+END
+menu.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/tg.doc/!svn/ver/12696/Client/config/menu.xml
+END
+attackType.csv
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/tg.doc/!svn/ver/12841/Client/config/attackType.csv
+END
+buffer.csv
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/tg.doc/!svn/ver/9323/Client/config/buffer.csv
+END
+enh_prop.csv
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/tg.doc/!svn/ver/12531/Client/config/enh_prop.csv
+END
+map.csv
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/tg.doc/!svn/ver/11478/Client/config/map.csv
+END
+guildlvl.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/9894/Client/config/guildlvl.csv
+END
+prof_exp.csv
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/tg.doc/!svn/ver/9894/Client/config/prof_exp.csv
+END

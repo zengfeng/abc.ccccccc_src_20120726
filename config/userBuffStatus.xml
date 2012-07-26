@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<!-- BUFF列表 -->
+	<buffList>
+		<!-- 蜀山重进等待时间 -->
+		<buff id="0" icon="buff_0.jpg"><![CDATA[<font color="#FFFF00">临阵逃脱</font>\n需__TIME__ 才可加入蜀山论剑]]></buff>
+		<!-- 变身buff -->
+		<buff id="200" icon="buff_200.jpg"><![CDATA[<font color="#FFFF00">牛魔王</font>\n你变身为牛魔王，点击“寻找良缘”将寻找<font color="#FFFF00">铁扇公主</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="201" icon="buff_201.jpg"><![CDATA[<font color="#FFFF00">后羿</font>\n你变身为后羿，点击“寻找良缘”将寻找<font color="#FFFF00">嫦娥</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="202" icon="buff_202.jpg"><![CDATA[<font color="#FFFF00">孙悟空</font>\n你变身为孙悟空，点击“寻找良缘”将寻找<font color="#FFFF00">紫霞仙子</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="203" icon="buff_203.jpg"><![CDATA[<font color="#FFFF00">铁扇公主</font>\n你变身为铁扇公主，点击“寻找良缘”将寻找<font color="#FFFF00">牛魔王</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="204" icon="buff_204.jpg"><![CDATA[<font color="#FFFF00">嫦娥</font>\n你变身为嫦娥，点击“寻找良缘”将寻找<font color="#FFFF00">后羿</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="205" icon="buff_205.jpg"><![CDATA[<font color="#FFFF00">紫霞仙子</font>\n你变身为紫霞仙子，点击“寻找良缘”将寻找<font color="#FFFF00">孙悟空</font>进行配对。\n离开活动区域或活动结束时，变身效果消失。\n\n变身时间：__TIME__\n<font color="#999999">变身期间每分钟，获得__EXP__经验</font>]]></buff>
+		<buff id="210" icon="buff_210.jpg"><![CDATA[<font color="#FFFF00">配对中</font>\n配对时间: __TIME__\n<font color="#999999">获得变身经验的同时，额外获得100%的加成</font>]]></buff>
+
+		<!-- 仙龟拜佛 -->
+		<buff id="221" icon="buff_221.jpg"><![CDATA[<font color="#FFFF00">仙龟护体</font>\n运送普通香炉时，攻击提高<font color="#279F15">5%</font>，生命提高<font color="#279F15">5%</font>\n<font color="#999999">只在仙龟拜佛中生效</font>]]></buff>
+		<buff id="222" icon="buff_222.jpg"><![CDATA[<font color="#FFFF00">仙龟护体</font>\n运送<font color="#279F15">初级香炉</font>时，攻击提高<font color="#279F15">10%</font>，生命提高<font color="#279F15">10%</font>\n<font color="#999999">只在仙龟拜佛中生效</font>]]></buff>
+		<buff id="223" icon="buff_223.jpg"><![CDATA[<font color="#FFFF00">仙龟护体</font>\n运送<font color="#3882D4">中级香炉</font>时，攻击提高<font color="#279F15">15%</font>，生命提高<font color="#279F15">15%</font>\n<font color="#999999">只在仙龟拜佛中生效</font>]]></buff>
+		<buff id="224" icon="buff_224.jpg"><![CDATA[<font color="#FFFF00">仙龟护体</font>\n运送<font color="#CE5DD4">高级香炉</font>时，攻击提高<font color="#279F15">20%</font>，生命提高<font color="#279F15">20%</font>\n<font color="#999999">只在仙龟拜佛中生效</font>]]></buff>
+	</buffList>
+
+	<!-- STUATUS列表 -->
+	<statusList>
+		<!-- 鼓舞 -->
+		<status id="0x700" mask="0x07" bits="8" icon="status_0.jpg">
+			<tip level="1"><![CDATA[攻击力提升20%\n生命值提升20%]]></tip>
+			<tip level="2"><![CDATA[攻击力提升40%\n生命值提升40%]]></tip>
+			<tip level="3"><![CDATA[攻击力提升60%\n生命值提升60%]]></tip>
+			<tip level="4"><![CDATA[攻击力提升80%\n生命值提升80%]]></tip>
+			<tip level="5"><![CDATA[攻击力提升100%\n生命值提升100%]]></tip>
+		</status>
+	</statusList>
+</root>

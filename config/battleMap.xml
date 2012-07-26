@@ -1,0 +1,66 @@
+<battle>
+<!-- 
+  id 前后台通信
+  type  0 加载特定的背景
+  		1 加载当前地图为战斗背景
+  url   0：图片url     1：地图ID
+  x,y   以资源的（x,y）作为当前用户屏幕的中心点
+  
+ -->
+	<item id='1' type='0' url='assets/battleBG/cloud.jpg' x='962' y='558'/>
+	<item id='2' type='0' url='assets/battleBG/tree.jpg' x='962' y='558'/>
+	<item id='3' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>
+	<item id='4' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>  <!--乐之国-->
+	<item id='5' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='6' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='7' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='8' type='0' url='assets/battleBG/x.jpg' x='962' y='558' />
+	<item id='9' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='10' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='20' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='30' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='31' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='32' type='0' url='assets/battleBG/x.jpg' x='962' y='558'/>
+	<item id='41' type='1' url='20' x='1500' y='900'/>
+	<item id='42' type='0' url='assets/battleBG/x.jpg' x='600' y='600'/>
+	<item id='100' type='0' url='assets/battleBG/x.jpg' x='600' y='600'/>
+    <item id='2010000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/>  <!--树之国通用-->
+	<item id='2010001' type='1' url='20' x='1464' y='1160'/>  <!--树精层-->
+	<item id='2020000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/> <!--通用小怪层战斗背景-->
+	<item id='2020001' type='1' url='20' x='1600' y='1900' />   <!--蝙蝠层-->
+	<item id='2030000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/>  
+	<item id='2030001' type='1' url='20' x='1288' y='900'/>  <!--肉虫层-->
+	<item id='2040000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/>
+	<item id='2040001' type='1' url='20' x='1668' y='880'/>   <!--蝶妖层-->
+	<item id='2050000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/>
+	<item id='2050001' type='1' url='20' x='1272' y='1248'/>    <!--花妖层-->
+	<item id='2210000' type='0' url='assets/battleBG/treedugeon.jpg' x='962' y='558'/>
+	<item id='2210001' type='1' url='20' x='1668' y='880'/>   <!--黄泉深渊-->
+	<item id='3010000' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>  <!--九阳国小怪层-->
+	<item id='3010001' type='1' url='20' x='2284' y='2404' />   <!--熔岩巨像-->
+	<item id='3020000' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>
+	<item id='3020001' type='1' url='20' x='1176' y='2336'/>   <!--火麒麟-->
+	<item id='3030000' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>
+	<item id='3030001' type='1' url='20' x='1568' y='820'/>   <!--烈焰方士-->
+	<item id='3040000' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>
+	<item id='3040001' type='1' url='20' x='1752' y='1224'/>   <!--火妖皇-->
+	<item id='3050000' type='0' url='assets/battleBG/9sun.jpg' x='962' y='558'/>
+	<item id='3050001' type='1' url='20' x='844' y='676'/>   <!--太阳神-->
+	<item id='4010000' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>
+	<item id='4010001' type='1' url='20' x='820' y='724'/>    <!--玄冰苍龙-->
+	<item id='4020000' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>
+	<item id='4020001' type='1' url='20' x='1298' y='690'/>    <!--玉笛魔女-->
+	<item id='4030000' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>
+	<item id='4030001' type='1' url='20' x='1076' y='780'/>    <!--寒羽-->
+	<item id='4040000' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>
+	<item id='4040001' type='1' url='20' x='1304' y='720'/>    <!--吴刚-->
+	<item id='4050000' type='0' url='assets/battleBG/ice.jpg' x='962' y='558'/>
+	<item id='4050001' type='1' url='20' x='1138' y='824'/>    <!--苍羽-->
+	<item id='100000' type='1' url='20' x='1500' y='900'/>                          <!--boss战background截图-->
+	<item id='200000' type='1' url='20' x='1938' y='780'/>                          <!--国战background截图-->
+	<item id='400000' type='1' url='20' x='1345' y='1455'/>                         <!--家族background截图-->
+	<item id='300000' type='0' url='assets/battleBG/guard.jpg' x='962' y='558'/>   <!--运镖background-->
+	<item id='500000' type='0' url='assets/battleBG/guild.jpg' x='962' y='558'/>   <!--家族运镖background-->
+	<item id='600000' type='0' url='assets/battleBG/guard.jpg' x='962' y='558'/>   <!--竞技场background-->
+	<item id='900000' type='0' url='assets/battleBG/lockboss.jpg' x='962' y='558'/>   <!--锁妖塔background-->
+</battle>

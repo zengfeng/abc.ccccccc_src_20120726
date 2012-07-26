@@ -1,0 +1,33 @@
+<map>
+  <scene id="30" name="家族主城" width="2560" height="1792" pieceW="256" pieceH="256" distant="" needMask="true">
+    <gate kind="in" standX="1388" standY="1229" id="0" x="1302" y="1158" skinId="0" rotation="0"/>
+    <npc id="3001" x="1440" y="965">
+      <point x="1185" y="966"/>
+      <point x="1210" y="896"/>
+      <point x="1214" y="1038"/>
+      <point x="1278" y="1103"/>
+      <point x="1416" y="1032"/>
+    </npc>
+    <npc id="3002" x="1726" y="1011">
+      <point x="1591" y="1020"/>
+      <point x="1610" y="1053"/>
+      <point x="1638" y="1082"/>
+      <point x="1764" y="1104"/>
+      <point x="1815" y="1091"/>
+    </npc>
+    <npc id="3003" x="975" y="1345">
+      <point x="1007" y="1252"/>
+      <point x="1032" y="1276"/>
+      <point x="1128" y="1314"/>
+      <point x="1056" y="1298"/>
+      <point x="1090" y="1314"/>
+    </npc>
+    <npc id="3004" x="693" y="676">
+      <point x="756" y="745"/>
+      <point x="676" y="755"/>
+      <point x="611" y="719"/>
+      <point x="810" y="620"/>
+      <point x="821" y="693"/>
+    </npc>
+  </scene>
+</map>

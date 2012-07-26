@@ -1,0 +1,18 @@
+<mining>
+<rule>
+	<BatchTimes>12</BatchTimes>
+	<VipLevel>1</VipLevel>
+	<CostGold>40</CostGold>
+	<MapId>44</MapId>
+	<DonkeyId>3008</DonkeyId>
+</rule>
+<npc>
+	<stone id="3009" flameX="-47" flameY="-247">晶石1</stone>
+	<stone id="3010" flameX="-55" flameY="-50">晶石2</stone>
+	<stone id="3011" flameX="-60" flameY="-50">晶石3</stone>
+	<stone id="3012" flameX="-60" flameY="-50">晶石4</stone>
+	<stone id="3013" flameX="-47" flameY="-50">晶石5</stone>
+	<stone id="3014" flameX="-30" flameY="-45">晶石6</stone>
+	<stone id="3015" flameX="-45" flameY="-40">晶石7</stone>
+</npc>
+</mining>

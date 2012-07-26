@@ -1,0 +1,46 @@
+<map>
+<<<<<<< .mine
+  <scene id="203" name="蝶妖层" width="3328" height="3072" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="1482" standY="2419" id="0" x="1319" y="2390"/>
+    <gate kind="next" standX="2023" standY="954" id="1" toScene="2" x="1992" y="829"/>
+    <npc id="4121" x="1887" y="2061" moveRadius="250" attackRadius="70">
+      <point x="1753" y="2006"/>
+      <point x="1768" y="2184"/>
+      <point x="1886" y="2183"/>
+      <point x="2028" y="2149"/>
+      <point x="2047" y="2035"/>
+=======
+  <scene id="203" name="树妖层" width="3584" height="4096" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="2853" standY="2492" id="0" x="2841" y="2419"/>
+    <gate kind="next" standX="1299" standY="1091" id="1" toScene="2" x="1237" y="983"/>
+    <npc id="4121" x="2477" y="2647" moveRadius="250" attackRadius="60">
+      <point x="2377" y="2747"/>
+      <point x="2427" y="2747"/>
+      <point x="2477" y="2747"/>
+      <point x="2527" y="2747"/>
+      <point x="2577" y="2747"/>
+>>>>>>> .r10049
+    </npc>
+    <npc id="4122" x="1266" y="2036" moveRadius="250" attackRadius="60">
+      <point x="1166" y="2136"/>
+      <point x="1216" y="2136"/>
+      <point x="1266" y="2136"/>
+      <point x="1316" y="2136"/>
+      <point x="1366" y="2136"/>
+    </npc>
+    <npc id="4123" x="1497" y="1152" attackRadius="200">
+      <point x="1397" y="1252"/>
+      <point x="1447" y="1252"/>
+      <point x="1497" y="1252"/>
+      <point x="1547" y="1252"/>
+      <point x="1597" y="1252"/>
+    </npc>
+    <npc id="4168" x="1029" y="1280" attackRadius="120">
+      <point x="1027" y="1302"/>
+      <point x="1001" y="1314"/>
+      <point x="1028" y="1324"/>
+      <point x="1033" y="1327"/>
+      <point x="1009" y="1302"/>
+    </npc>
+  </scene>
+</map>

@@ -1,0 +1,10 @@
+<map>
+  <scene id="5" name="苗蛊国" width="4864" height="4864" pieceW="256" pieceH="256" distant="" needMask="true">
+    <gate kind="next" standX="1598" standY="797" id="1" toScene="501" x="1593" y="797" skinId="0" rotation="0"/>
+    <gate kind="in" standX="939" standY="4620" id="0" x="935" y="4629" skinId="0" rotation="0"/>
+    <gate kind="next" standX="3882" standY="4691" id="2" toScene="502" x="3973" y="4708" skinId="0" rotation="0"/>
+    <gate kind="next" standX="678" standY="3413" id="3" toScene="503" x="672" y="3406" skinId="0" rotation="0"/>
+    <gate kind="next" standX="2885" standY="1170" id="4" toScene="504" x="2851" y="1137" skinId="0" rotation="0"/>
+    <gate kind="next" standX="2090" standY="4194" id="5" toScene="505" x="2055" y="4159" skinId="0" rotation="0"/>
+  </scene>
+</map>

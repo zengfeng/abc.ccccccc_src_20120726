@@ -1,0 +1,61 @@
+﻿<quide>
+<!-- 	 * 1-20 每个国的新手引导(新进入一国时，播放序章动画) 
+		 * 
+		 * 21  仙葫引导
+		 * 22  法宝
+		 * 23 元神
+		 * 24  黄泉深渊	
+		 * 	targetId    目标ID 参照menu.xml中的id    step中如果也有targetId 则会以step中的为准
+		 *  arrowType   1:气泡荷花   2:气泡有文字   3:气泡感叹号    4:新手引导箭头
+		 *  type  1
+		 *	message    	箭头上的文字
+		 	x:相对于 targetId容器的坐标X
+		 	y:相对于 targetId容器的坐标Y
+		 */
+ -->
+
+	<item id="21"  targetId="15"  >
+		<step id="1" arrowType="1" message="" x="10" y="-26" />
+		<step id="2" arrowType="4" message="请点击荷花" x="91" y="300" />
+		<step id="3" arrowType="4" message="请点击关闭" x="550" y="5" type="1" />
+	</item>
+	
+	<item id="22"  targetId="4"  >
+		<step id="1" arrowType="3" message="" x="10" y="-26" />
+		<step id="2" arrowType="4" message="请点击升阶" x="78" y="353" />
+		<step id="3" arrowType="4" message="请点击关闭" x="494" y="-46" type="1" />
+	</item>
+	
+	<item id="23"  targetId="5" >
+		<step id="1" arrowType="3" message="" x="10" y="-26" />
+		<step id="2" arrowType="4" message="请拖动元神" x="280" y="44" />
+		<step id="3" arrowType="4" message="把元神放入此处" x="-30" y="72" />
+		<step id="4" arrowType="4" message="请点击按钮" x="51" y="367" />
+	</item>
+	
+	<item id="24"  targetId="138" >
+		<step id="1" arrowType="3" message="" x="10" y="-26" />
+		<step id="2" arrowType="4" message="请点击召唤" x="-187" y="14" />
+		<step id="3" arrowType="4" message="请点击拾取" x="-175" y="-12" />
+	</item>
+	
+	<item id="25"  targetId="6" >
+		<step id="1" arrowType="3" message="" x="10" y="-26" />
+		<step id="2" arrowType="4" message="请点击放入装备" x="188" y="32" />
+		<step id="3" arrowType="4" message="请点击强化" x="-34" y="298" />
+		<step id="4" arrowType="4" message="请点击关闭" x="418" y="-46" type="1" />
+	</item>
+		
+	<item id="26"  targetId="38" type="1">
+		<step id="1" arrowType="4" message="请点击炼妖壶" x="-215" y="-120" />
+		<step id="2" arrowType="4" message="请点击炼妖" x="-215" y="-70" />
+	</item>
+			
+	<item id="27"  targetId="40" type="1">
+		<step id="1" arrowType="4" message="请点击挑战" x="628" y="700" />
+	</item>	
+	
+	<item id="28"  targetId="38" type="1">
+		<step id="1" arrowType="4" message="请点击采集仙石" x="-161" y="16" />
+	</item>
+</quide>

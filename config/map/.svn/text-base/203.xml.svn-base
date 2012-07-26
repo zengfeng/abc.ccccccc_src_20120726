@@ -1,0 +1,34 @@
+<map>
+  <scene id="203" name="肉虫之穴" width="3328" height="3072" pieceW="256" pieceH="256" distant="">
+    <gate kind="in" standX="2252" standY="2373" id="0" x="2084" y="2221" skinId="0" rotation="0"/>
+    <gate kind="next" standX="1108" standY="1016" id="1" toScene="2" x="993" y="932" skinId="0" rotation="0"/>
+    <npc id="4111" x="1892" y="2151" moveRadius="150" attackRadius="50">
+      <point x="1863" y="2044"/>
+      <point x="1793" y="2161"/>
+      <point x="1831" y="2244"/>
+      <point x="1933" y="2236"/>
+      <point x="1990" y="2165"/>
+    </npc>
+    <npc id="4112" x="2191" y="1537" moveRadius="270" attackRadius="60">
+      <point x="2064" y="1470"/>
+      <point x="2015" y="1618"/>
+      <point x="2131" y="1649"/>
+      <point x="2304" y="1630"/>
+      <point x="2370" y="1531"/>
+    </npc>
+    <npc id="4113" x="1298" y="919" attackRadius="180">
+      <point x="1162" y="956"/>
+      <point x="1232" y="979"/>
+      <point x="1325" y="1021"/>
+      <point x="1402" y="992"/>
+      <point x="1456" y="912"/>
+    </npc>
+    <npc id="4167" x="1665" y="1091" attackRadius="100">
+      <point x="1714" y="1153"/>
+      <point x="1705" y="1149"/>
+      <point x="1712" y="1138"/>
+      <point x="1709" y="1136"/>
+      <point x="1713" y="1137"/>
+    </npc>
+  </scene>
+</map>

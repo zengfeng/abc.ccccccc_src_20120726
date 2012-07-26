@@ -1,0 +1,5 @@
+<map>
+  <scene id="43" name="蜀山论剑" width="3840" height="2048" pieceW="256" pieceH="256">
+    <gate kind="in" standX="42" standY="19" x="612" y="147"/>
+  </scene>
+</map>
